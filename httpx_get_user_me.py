@@ -19,6 +19,7 @@ def get_user_data(bearer_token: str) -> dict[str, dict[str, dict[str, str]]]:
     response.raise_for_status()
     user_data = response.json()
     print(f"User data: {user_data}")
+    print(f"Status code: {response.status_code}")
     return user_data
 
 with httpx.Client() as client:
