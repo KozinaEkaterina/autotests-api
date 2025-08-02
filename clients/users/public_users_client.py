@@ -4,7 +4,7 @@ from httpx import Response
 
 from clients.api_client import APIClient
 
-class CreateUserDict(TypedDict):
+class CreateUserRequestDict(TypedDict):
     email: str
     password: str
     lastName: str
@@ -14,7 +14,7 @@ class CreateUserDict(TypedDict):
 
 class PublicUsersClient(APIClient):
 
-    def create_user_api(self, request: dict) -> Response:
+    def create_user_api(self, request: CreateUserRequestDict) -> Response:
         """
         Метод выполняет создание пользователя.
 

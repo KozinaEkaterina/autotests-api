@@ -10,7 +10,7 @@ class GetExercisesQueryDict(TypedDict):
     """
     courseId: str
 
-class CreateExerciseQueryDict(TypedDict):
+class CreateExerciseRequestDict(TypedDict):
     """
     Описание структуры запроса на создание упражнения.
     """
@@ -22,7 +22,7 @@ class CreateExerciseQueryDict(TypedDict):
     description: str
     estimatedTime: str
 
-class UpdateExerciseQueryDict(TypedDict):
+class UpdateExerciseRequestDict(TypedDict):
     """
     Описание структуры запроса на обновление упражнения.
     """
@@ -54,7 +54,7 @@ class ExercisesClient(APIClient):
         """
         return self.get(f"/api/v1/exercises/{exercise_id}")
 
-    def create_exercise_api(self, request: CreateExerciseQueryDict) -> Response:
+    def create_exercise_api(self, request: CreateExerciseRequestDict) -> Response:
         """
         Метод создания упражнения.
 
@@ -64,7 +64,7 @@ class ExercisesClient(APIClient):
         """
         return self.post("/api/v1/exercises", json=request)
 
-    def update_exercise_api(self, request: UpdateExerciseQueryDict, exercise_id: str) -> Response:
+    def update_exercise_api(self, request: UpdateExerciseRequestDict, exercise_id: str) -> Response:
         """
         Метод обновления упражнения.
 
