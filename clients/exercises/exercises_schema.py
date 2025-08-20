@@ -1,6 +1,7 @@
 from typing import Optional
-
 from pydantic import BaseModel, Field, ConfigDict
+
+from tools.fakers import fake
 
 
 class ExerciseSchema(BaseModel):
@@ -48,13 +49,13 @@ class CreateExerciseRequestSchema(BaseModel):
     """
     model_config = ConfigDict(populate_by_name=True)
 
-    title: str
-    course_id: str = Field(alias='courseId')
-    max_score: int = Field(alias='maxScore')
-    min_score: int = Field(alias='minScore')
-    order_index: int = Field(alias='orderIndex')
-    description: str
-    estimated_time: str = Field(alias='estimatedTime')
+    title: str = Field(default_factory=fake.sentence)
+    course_id: str = Field(default_factory=fake.uuid4, alias='courseId')
+    max_score: int = Field(default_factory=fake.max_score, alias='maxScore')
+    min_score: int = Field(default_factory=fake.min_score, alias='minScore')
+    order_index: int = Field(default_factory=fake.integer, alias='orderIndex')
+    description: str = Field(default_factory=fake.text)
+    estimated_time: str = Field(default_factory=fake.estimated_time, alias='estimatedTime')
 
 
 class UpdateExerciseRequestSchema(BaseModel):
@@ -63,9 +64,9 @@ class UpdateExerciseRequestSchema(BaseModel):
     """
     model_config = ConfigDict(populate_by_name=True)
 
-    title: Optional[str]
-    max_score: Optional[int] = Field(alias='maxScore')
-    min_score: Optional[int] = Field(alias='minScore')
-    order_index: Optional[int] = Field(alias='orderIndex')
-    description: Optional[str]
-    estimated_time: Optional[str] = Field(alias='estimatedTime')
+    title: Optional[str] = Field(default_factory=fake.sentence)
+    max_score: Optional[int] = Field(default_factory=fake.max_score, alias='maxScore')
+    min_score: Optional[int] = Field(default_factory=fake.min_score, alias='minScore')
+    order_index: Optional[int] = Field(default_factory=fake.integer, alias='orderIndex')
+    description: Optional[str] = Field(default_factory=fake.text)
+    estimated_time: Optional[str] = Field(default_factory=fake.estimated_time, alias='estimatedTime')
