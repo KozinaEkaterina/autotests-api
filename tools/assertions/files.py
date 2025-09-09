@@ -1,6 +1,6 @@
 import httpx
 
-from clients.errors_schema import ValidationErrorResponseSchema, InternalErrorResponseSchema
+from clients.errors_schema import ValidationErrorResponseSchema, InternalErrorResponseSchema, ValidationErrorSchema
 from clients.files.files_schema import CreateFileResponseSchema, CreateFileRequestSchema, FileSchema, \
     GetFileResponseSchema
 from tools.assertions.base import assert_equal
@@ -110,7 +110,26 @@ def assert_file_not_found_response(actual: InternalErrorResponseSchema):
     :param actual: Фактический ответ.
     :raises AssertionError: Если фактический ответ не соответствует ошибке "File not found"
     """
-    # Ожидаемое сообщение об ошибке, если файл не найден
     expected = InternalErrorResponseSchema(details="File not found")
-    # Используем ранее созданную функцию для проверки внутренней ошибки
     assert_internal_error_response(actual, expected)
+
+
+def assert_get_file_with_incorrect_file_id_response(actual: ValidationErrorResponseSchema):
+    """
+    Проверяет, что ответ на запрос на получение файла по несуществующему айди файла соответствует ожидаемой валидационной ошибке.
+
+    :param actual: Ответ от API с ошибкой валидации, который необходимо проверить.
+    :raises AssertionError: Если фактический ответ не соответствует ожидаемому.
+    """
+    expected = ValidationErrorResponseSchema(
+        details=[
+            ValidationErrorSchema(
+                type="uuid_parsing",
+                input="incorrect-file-id",
+                context={"error": "invalid character: expected an optional prefix of `urn:uuid:` followed by [0-9a-fA-F-], found `i` at 1"},
+                message="Input should be a valid UUID, invalid character: expected an optional prefix of `urn:uuid:` followed by [0-9a-fA-F-], found `i` at 1",
+                location=["path", "file_id"]
+            )
+        ]
+    )
+    assert_validation_error_response(actual, expected)
