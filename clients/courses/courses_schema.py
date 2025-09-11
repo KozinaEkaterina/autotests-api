@@ -21,13 +21,20 @@ class CourseSchema(BaseModel):
     created_by_user: UserSchema = Field(alias="createdByUser")
 
 
-class GetCourseQuerySchema(BaseModel):
+class GetCoursesQuerySchema(BaseModel):
     """
     Описание структуры запроса на получение списка курсов.
     """
     model_config = ConfigDict(populate_by_name=True)
 
     user_id: str = Field(alias="userId")
+
+
+class GetCoursesResponseSchema(BaseModel):
+    """
+    Описание структуры ответа на получение списка курсов.
+    """
+    courses: list[CourseSchema]
 
 
 class CreateCourseRequestSchema(BaseModel):
