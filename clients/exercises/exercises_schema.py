@@ -57,6 +57,12 @@ class CreateExerciseRequestSchema(BaseModel):
     description: str = Field(default_factory=fake.text)
     estimated_time: str = Field(default_factory=fake.estimated_time, alias='estimatedTime')
 
+class CreateExerciseResponseSchema(BaseModel):
+    """
+    Описание структуры ответа на создание упражнения.
+    """
+    exercise: ExerciseSchema
+
 
 class UpdateExerciseRequestSchema(BaseModel):
     """
