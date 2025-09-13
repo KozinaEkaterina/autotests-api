@@ -76,3 +76,10 @@ class UpdateExerciseRequestSchema(BaseModel):
     order_index: Optional[int] = Field(default_factory=fake.integer, alias='orderIndex')
     description: Optional[str] = Field(default_factory=fake.text)
     estimated_time: Optional[str] = Field(default_factory=fake.estimated_time, alias='estimatedTime')
+
+
+class UpdateExerciseResponseSchema(BaseModel):
+    """
+    Описание структуры ответа на обновление упражнения.
+    """
+    exercise: ExerciseSchema
