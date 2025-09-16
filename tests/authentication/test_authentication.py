@@ -9,6 +9,7 @@ from fixtures.users import UserFixture
 from tools.allure.epics import AllureEpic
 from tools.allure.features import AllureFeature
 from tools.allure.stories import AllureStory
+from allure_commons.types import Severity
 from tools.allure.tags import AllureTag
 from tools.assertions.authentication import assert_login_response
 from tools.assertions.base import assert_status_code
@@ -24,6 +25,7 @@ class TestAuthentication:
 
     @allure.title("Login with correct email and password")
     @allure.story(AllureStory.LOGIN)
+    @allure.severity(Severity.BLOCKER)
     def test_login(self, function_user: UserFixture, authentication_client: AuthenticationClient):
         request = LoginRequestSchema(email=function_user.email, password=function_user.password)
         response = authentication_client.login_api(request)

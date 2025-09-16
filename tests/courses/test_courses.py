@@ -4,17 +4,28 @@ import allure
 import pytest
 
 from clients.courses.courses_client import CoursesClient
-from clients.courses.courses_schema import UpdateCourseRequestSchema, UpdateCourseResponseSchema, GetCoursesQuerySchema, \
-    GetCoursesResponseSchema, CreateCourseRequestSchema, CreateCourseResponseSchema
+from clients.courses.courses_schema import (
+    UpdateCourseRequestSchema,
+    UpdateCourseResponseSchema,
+    GetCoursesQuerySchema,
+    GetCoursesResponseSchema,
+    CreateCourseRequestSchema,
+    CreateCourseResponseSchema
+)
 from fixtures.courses import CourseFixture
 from fixtures.files import FileFixture
 from fixtures.users import UserFixture
 from tools.allure.epics import AllureEpic
+from tools.allure.features import AllureFeature
 from tools.allure.stories import AllureStory
 from tools.allure.tags import AllureTag
+from allure_commons.types import Severity
 from tools.assertions.base import assert_status_code
-from tools.assertions.courses import assert_update_course_response, assert_get_courses_response, \
+from tools.assertions.courses import (
+    assert_update_course_response,
+    assert_get_courses_response,
     assert_create_course_response
+)
 from tools.assertions.schema import validate_json_schema
 
 
@@ -27,6 +38,7 @@ class TestCourses:
 
     @allure.tag(AllureTag.CREATE_ENTITY)
     @allure.story(AllureStory.CREATE_ENTITY)
+    @allure.severity(Severity.BLOCKER)
     @allure.title("Create course")
     def test_create_course(self, courses_client: CoursesClient, function_user: UserFixture, function_file: FileFixture):
         request = CreateCourseRequestSchema(
@@ -43,6 +55,7 @@ class TestCourses:
 
     @allure.tag(AllureTag.GET_ENTITIES)
     @allure.story(AllureStory.GET_ENTITIES)
+    @allure.severity(Severity.BLOCKER)
     @allure.title("Get courses")
     def test_get_courses(
             self,
@@ -61,6 +74,7 @@ class TestCourses:
 
     @allure.tag(AllureTag.UPDATE_ENTITY)
     @allure.story(AllureStory.UPDATE_ENTITY)
+    @allure.severity(Severity.CRITICAL)
     @allure.title("Update course")
     def test_update_course(self, courses_client: CoursesClient, function_course: CourseFixture):
         request = UpdateCourseRequestSchema()
