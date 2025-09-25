@@ -28,17 +28,13 @@ class Settings(BaseSettings):
     test_data: TestDataConfig
     http_client: HTTPClientConfig
     allure_results_dir: DirectoryPath
-    os_info: str
-    python_version: str
 
     @classmethod
     def initialize(cls) -> Self:
         allure_results_dir = DirectoryPath("./allure-results")
         allure_results_dir.mkdir(exist_ok=True)
-        os_info = f'{platform.system()}, {platform.release()}'
-        python_version = sys.version
 
-        return Settings(os_info=os_info, python_version=python_version, allure_results_dir=allure_results_dir)
+        return Settings(allure_results_dir=allure_results_dir)
 
 
 settings = Settings.initialize()
