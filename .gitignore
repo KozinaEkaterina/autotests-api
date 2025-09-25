@@ -1,0 +1,12 @@
+# created by virtualenv automatically
+# pycharm
+.idea
+
+# python
+.venv
+__pycache__
+.env
+
+# allure
+allure-results
+allure-report
