@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTI2VDEwOjI5OjEyLjIwNjY1MSIsInVzZXJfaWQiOiIwMjlkMWMwNi0zOWZlLTRmZjEtODhiZS1jNDEwYzIwNjA1MWEifQ.bJnduH6KRlzHil0J8iqkqQt311TP4uIMyMvB9Uk_Euk' \
+  -H 'content-length: 264' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Low serve public.","courseId":"cf47ed2a-4c0d-40bf-9658-c5969d4e185c","maxScore":59,"minScore":27,"orderIndex":95,"description":"Space best hour near act safe. One young bill beautiful. Believe cold decision identify according.","estimatedTime":"9 weeks"}'

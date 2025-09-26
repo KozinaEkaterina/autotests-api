@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/0edd1564-4ad3-4a84-a808-307c23ae3462' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTI2VDEwOjI5OjEyLjQ3OTUyOSIsInVzZXJfaWQiOiIwYzJlNGJhNi1mOGJjLTQ5OWItYmFjOS05ZjFmODM1ZDg4OTQifQ.CBXDmkN-eR1fJuCaf-wvfG8etmkCVEBRRYP9SrJmdFA' \
+  -H 'content-length: 318' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Pick game standard once change relate old.","maxScore":55,"minScore":10,"orderIndex":42,"description":"Discussion system too thousand.\nWhite though relationship interview total. Around world sign mean.\nBorn large history professor dream charge. Reflect whether glass thus scene.","estimatedTime":"4 weeks"}'

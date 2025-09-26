@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTI2VDEwOjI5OjEzLjY2ODQzOSIsInVzZXJfaWQiOiJlZGIzMDIwZi02ZjAxLTQwYjctYjQ2YS1iZGNmNTlmMTc4ZjgifQ.OnxTf8nmliIsblsTtiU-zosyChA3EbQFcs1bjWzGTGM' \
+  -H 'content-length: 272' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Strong computer central present.","maxScore":68,"minScore":4,"description":"Thus beat year health. Run mention sport rest.","estimatedTime":"1 weeks","previewFileId":"33c03ebc-7953-479a-9f9f-f8f929f5f87b","createdByUserId":"edb3020f-6f01-40b7-b46a-bdcf59f178f8"}'

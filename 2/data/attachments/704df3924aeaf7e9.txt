@@ -1,0 +1,10 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/users' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'content-length: 126' \
+  -H 'content-type: application/json' \
+  -d '{"email":"theresacoleman@example.org","password":"Dbk6U9Z7U@","lastName":"Ferguson","firstName":"Marc","middleName":"Kenneth"}'

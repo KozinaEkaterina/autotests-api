@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/24455b2f-1607-46c7-aa06-3a2eee42c5c0' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTI2VDEwOjI5OjExLjI5Mzc0MCIsInVzZXJfaWQiOiJkNzhjOGJiNS0zMjgxLTQ0OWQtYmRlMC05MDZiMDY4NzM1MzIifQ.s2CeXv6qMaVkMGInxGQsud1LpVYgcL_TocBd5NZUCcM' \
+  -H 'content-length: 213' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Response big become send happy.","maxScore":99,"minScore":19,"description":"By performance great interest first. Tax professional human challenge leader hot collection manage.","estimatedTime":"3 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTI2VDEwOjI5OjEyLjIwNjY1MSIsInVzZXJfaWQiOiIwMjlkMWMwNi0zOWZlLTRmZjEtODhiZS1jNDEwYzIwNjA1MWEifQ.bJnduH6KRlzHil0J8iqkqQt311TP4uIMyMvB9Uk_Euk' \
+  -H 'content-length: 367' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Him mean administration well capital imagine.","maxScore":60,"minScore":29,"description":"Expert myself protect foot discuss. Guess change remain more.\nCentury word make. Happen evening reason that computer be line.","estimatedTime":"10 weeks","previewFileId":"86d3c761-3bc4-4bbd-85ca-70e71afb5880","createdByUserId":"029d1c06-39fe-4ff1-88be-c410c206051a"}'

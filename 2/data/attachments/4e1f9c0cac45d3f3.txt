@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTI2VDEwOjI5OjE0LjM3MDk4MCIsInVzZXJfaWQiOiIxZTdkMTk3MS1kZDkwLTQxM2QtOWIxYy1mYmVmOGZlZWZjNGIifQ.BgGbepCSREX3jHUVILKvKyUHMBkNjc5iK2-iA0-4mvk' \
+  -H 'content-length: 346' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Contain cause within relate serious already doctor.","maxScore":75,"minScore":3,"description":"Policy since continue. Same economy family use degree. Letter would TV poor front nature tree green.","estimatedTime":"10 weeks","previewFileId":"32b2c7db-22a0-422e-94eb-590464d5a112","createdByUserId":"1e7d1971-dd90-413d-9b1c-fbef8feefc4b"}'

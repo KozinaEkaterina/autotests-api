@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTI2VDEwOjI5OjEyLjQ3OTUyOSIsInVzZXJfaWQiOiIwYzJlNGJhNi1mOGJjLTQ5OWItYmFjOS05ZjFmODM1ZDg4OTQifQ.CBXDmkN-eR1fJuCaf-wvfG8etmkCVEBRRYP9SrJmdFA' \
+  -H 'content-length: 390' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Success ten story tell relationship wind.","maxScore":68,"minScore":21,"description":"Fund cup be firm. Determine report sometimes senior figure case. Gas great new arrive.\nMind until role dark bank nothing. Sell far citizen admit billion.","estimatedTime":"8 weeks","previewFileId":"c99f45a5-efee-48a0-a564-6ca969251aa3","createdByUserId":"0c2e4ba6-f8bc-499b-bac9-9f1f835d8894"}'
