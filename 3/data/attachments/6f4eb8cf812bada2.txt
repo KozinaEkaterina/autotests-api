@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTI2VDEwOjU4OjA3LjYxODU1MCIsInVzZXJfaWQiOiIzOTMxNDJhOC04NzM0LTQyZjgtOWFkZi1jZGNiNmJmZGE1ODcifQ.IdQgeNjvjIIH8XB7vPKEWTPmGzjtI0UM0Lr71M0YIWQ' \
+  -H 'content-length: 323' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Understand hard bar specific land southern.","maxScore":59,"minScore":28,"description":"Power source second project. Deep summer plant. How education improve why provide no.","estimatedTime":"6 weeks","previewFileId":"eb586283-7cc1-4e72-892c-97910dc43349","createdByUserId":"393142a8-8734-42f8-9adf-cdcb6bfda587"}'

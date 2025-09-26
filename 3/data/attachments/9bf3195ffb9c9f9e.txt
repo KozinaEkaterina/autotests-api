@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTI2VDEwOjU4OjA3Ljg5MjY5NiIsInVzZXJfaWQiOiI1ODcxZmI4My1hZTdlLTQyN2EtODhhZS1jMDVmNDE0Y2I1Y2QifQ.uuAlm2ZmadNbbUmIdfKMBsfOpmfHNASeOtNWuoHQyyI' \
+  -H 'content-length: 392' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Source remember morning church hundred.","maxScore":84,"minScore":14,"description":"Budget event leg on expect. Although serious amount save.\nWest side major by idea shoulder theory cut. Top red knowledge land under.\nHappy meet action full.","estimatedTime":"1 weeks","previewFileId":"16973270-7c83-4377-94b8-8dbb00381451","createdByUserId":"5871fb83-ae7e-427a-88ae-c05f414cb5cd"}'

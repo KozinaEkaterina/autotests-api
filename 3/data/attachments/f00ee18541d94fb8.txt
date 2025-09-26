@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTI2VDEwOjU4OjA2LjY4MTA2NSIsInVzZXJfaWQiOiIwNTNkMDhiZS1jNTFmLTQyMGUtODlhOC00NGJhYTVjOTVhN2IifQ.PjhhjnPyB1nUJaco1wM-bH_hCeepKtWLENkou-zjuAw' \
+  -H 'content-length: 277' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Land her sister article lead culture region body.","maxScore":55,"minScore":15,"description":"Place law reality field director.","estimatedTime":"1 weeks","previewFileId":"34da4c47-d93b-4dc8-ad6f-5dd2c35d321b","createdByUserId":"053d08be-c51f-420e-89a8-44baa5c95a7b"}'

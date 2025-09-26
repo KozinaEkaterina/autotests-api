@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTI2VDEwOjU4OjA1LjIwOTA1MyIsInVzZXJfaWQiOiI4ZTBiOTk1Zi0xOThjLTQ5MmQtYmMwZS1jMGVkOGI1MzU5YTAifQ.S4i7Ob2Os0yBbURN8DSRcVjxdQ1WNtwcntCk7_x2tg0' \
+  -H 'content-length: 412' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Need them action keep.","maxScore":90,"minScore":11,"description":"Which meeting hotel feel television.\nParent model put consider response me attention. Too face even black address. Card executive officer administration.\nWith old weight decision suggest enjoy.","estimatedTime":"1 weeks","previewFileId":"1f662bd0-8765-4a03-adbc-913bf78a6e96","createdByUserId":"8e0b995f-198c-492d-bc0e-c0ed8b5359a0"}'
