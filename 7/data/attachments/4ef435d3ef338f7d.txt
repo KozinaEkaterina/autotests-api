@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTAzVDEyOjQ5OjAyLjE3MTIxMSIsInVzZXJfaWQiOiJiNDdkODhhYS1lNmMzLTQ1MjgtOTg1Zi0wYzFmMTg4ZjQ4NGUifQ.6f1bqtACtWqmeh1D2rvPk_szAo5I5BN4rg9OgwfgKbE' \
+  -H 'content-length: 354' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Her tree suddenly hold such south individual down.","courseId":"05845673-e081-445b-bc6e-114111f2e0ea","maxScore":91,"minScore":29,"orderIndex":20,"description":"Suddenly less important mouth summer career part. Low rate rich executive sport. Benefit theory some upon send light.\nFact gun similar enter action while.","estimatedTime":"4 weeks"}'

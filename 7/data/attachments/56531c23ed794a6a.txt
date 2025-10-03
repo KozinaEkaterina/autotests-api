@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTAzVDEyOjQ4OjU3LjM2ODkwMiIsInVzZXJfaWQiOiJiNGE4MmQ3YS1iM2VjLTQwNmYtODRmNi00ZTFlNmUyNDFjZDYifQ.0B0GcKYJcR8sj9yGSfZc2XwZGvxNmpW2TiCYR1uwb8k' \
+  -H 'content-length: 387' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Officer network common figure few camera.","maxScore":90,"minScore":14,"description":"New him lay. Manager common morning catch camera create safe. Citizen term interesting ever perform.\nPart ground law. Least reason officer after rate.","estimatedTime":"3 weeks","previewFileId":"173a3369-2c3c-4684-8444-1c4f17a77288","createdByUserId":"b4a82d7a-b3ec-406f-84f6-4e1e6e241cd6"}'

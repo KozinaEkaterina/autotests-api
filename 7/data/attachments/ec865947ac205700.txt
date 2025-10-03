@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTAzVDEyOjQ5OjAwLjkyMjg2NSIsInVzZXJfaWQiOiIzYjRmOTM1Yy03NGNlLTRhZDYtODJmNC1iNTZlYmRhYTNjM2QifQ.ZrA8p0ptkKg7hNBHJrt0cRsl_fuVheJjjqKds6FZ7QM' \
+  -H 'content-length: 349' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Practice left president thank standard account property.","maxScore":67,"minScore":3,"description":"Car wife lose behavior reveal also argue something. Position air performance others that boy alone.","estimatedTime":"8 weeks","previewFileId":"0ade002c-27dc-41df-9914-a5d7174464fb","createdByUserId":"3b4f935c-74ce-4ad6-82f4-b56ebdaa3c3d"}'

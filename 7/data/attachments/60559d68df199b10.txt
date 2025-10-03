@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTAzVDEyOjQ4OjU4Ljc4OTU4OCIsInVzZXJfaWQiOiJkZjI2ZDQxMS02MWMyLTRkNmQtODcyZS0yMDc4Y2E4ZGUwYzYifQ.TghuTUEw-mBe0Qev0Cl8QSg8OVuzM9YAZtbB18NiJlQ' \
+  -H 'content-length: 403' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Lose probably sure provide attack seven financial.","maxScore":88,"minScore":13,"description":"Across word day well beat. Spring cold radio over like. Share figure hair cold pay into change establish.\nCan exactly only meet. Be nor tonight floor threat.","estimatedTime":"3 weeks","previewFileId":"99e06e85-58c0-4a23-88b0-197ac350e59e","createdByUserId":"df26d411-61c2-4d6d-872e-2078ca8de0c6"}'

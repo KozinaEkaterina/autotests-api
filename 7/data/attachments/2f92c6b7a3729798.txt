@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTAzVDEyOjQ4OjU5Ljk4MzM2NSIsInVzZXJfaWQiOiIzMjQyNmQ4YS1jN2NiLTRkNDItYmM2Ni0xZWE0ZDI1ZDBiN2MifQ.VHtnmGtOzGdB44y2VXTJtHQc_lKr0LhTOTYtnzRps9I' \
+  -H 'content-length: 335' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Look fall white although oil reveal.","maxScore":72,"minScore":17,"description":"Continue hair agreement unit dark two those. Area guy truth reach travel. Court become factor eat stuff.","estimatedTime":"8 weeks","previewFileId":"ff23bf21-1a60-4d7d-9ea4-89dd141d31c5","createdByUserId":"32426d8a-c7cb-4d42-bc66-1ea4d25d0b7c"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTAzVDEyOjQ4OjU4LjUxNTE2OCIsInVzZXJfaWQiOiIwMGE3MDE4Ny1jOTBjLTRlM2ItODhiNy00NjE2NDdjMzhjZDMifQ.KDelpHayKTC_-B5fEm836BOTjWuqfC4GKoGR-D9nEek' \
+  -H 'content-length: 419' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Large mission look nature either like white.","maxScore":61,"minScore":8,"description":"Arrive stay week plan quickly. Decision model else expert that when.\nThan specific take memory seek maintain. Business herself source level arrive wish. Step author civil southern.","estimatedTime":"6 weeks","previewFileId":"31f90187-006a-4663-a096-0dd19c85f33e","createdByUserId":"00a70187-c90c-4e3b-88b7-461647c38cd3"}'

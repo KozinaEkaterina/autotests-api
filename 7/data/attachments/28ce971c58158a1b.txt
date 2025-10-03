@@ -1,0 +1,25 @@
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:26 Make GET request to http://localhost:8000/api/v1/exercises/7c40fea7-ccd2-439f-a983-ef2eefae4810
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/exercises/7c40fea7-ccd2-439f-a983-ef2eefae4810
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:70 Check get exercise response
+INFO     EXERCISES_ASSERTIONS:exercises.py:47 Check exercise
+INFO     BASE_ASSERTIONS:base.py:38 Check that "id" equals to 7c40fea7-ccd2-439f-a983-ef2eefae4810
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals to Standard cell detail physical.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "course_id" equals to 755dc840-cc20-465f-a2b9-4ac3a8305245
+INFO     BASE_ASSERTIONS:base.py:38 Check that "max_score" equals to 86
+INFO     BASE_ASSERTIONS:base.py:38 Check that "min_score" equals to 1
+INFO     BASE_ASSERTIONS:base.py:38 Check that "order_index" equals to 25
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals to Audience hear identify offer expect. Deal miss could usually town brother. Simple ahead once outside mother yard.
+Local the speech store. Watch along step economic might drive room value.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals to 3 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validating JSON schema

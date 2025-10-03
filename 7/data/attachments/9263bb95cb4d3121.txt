@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTAzVDEyOjQ4OjU5Ljk4MzM2NSIsInVzZXJfaWQiOiIzMjQyNmQ4YS1jN2NiLTRkNDItYmM2Ni0xZWE0ZDI1ZDBiN2MifQ.VHtnmGtOzGdB44y2VXTJtHQc_lKr0LhTOTYtnzRps9I' \
+  -H 'content-length: 375' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Happen support ready create he performance like item.","courseId":"f432a118-7b21-40db-90c8-c7cdd823ce01","maxScore":78,"minScore":17,"orderIndex":33,"description":"These close pay air play. Must doctor community team born example. Southern task capital.\nCommon rich case maybe case. Second learn public Republican once none best notice.","estimatedTime":"1 weeks"}'

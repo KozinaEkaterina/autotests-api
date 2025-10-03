@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/c2263a75-8b44-4991-9b4f-ba4ae3192ef5' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTAzVDEyOjQ4OjU4Ljc4OTU4OCIsInVzZXJfaWQiOiJkZjI2ZDQxMS02MWMyLTRkNmQtODcyZS0yMDc4Y2E4ZGUwYzYifQ.TghuTUEw-mBe0Qev0Cl8QSg8OVuzM9YAZtbB18NiJlQ' \
+  -H 'content-length: 178' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Voice car official foreign.","maxScore":75,"minScore":30,"description":"Report before to model. Page test sometimes make away party involve.","estimatedTime":"2 weeks"}'
