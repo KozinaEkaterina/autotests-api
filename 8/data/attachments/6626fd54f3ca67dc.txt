@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTAzVDEzOjAxOjUyLjgwMjYwMiIsInVzZXJfaWQiOiJhOGI3OWI3YS0xNDI1LTQ3MmQtOWFjNS05Yjc2MzA4YWY5NTUifQ.ATw5xg7MzBmQxFdPsq4G67uZdMCIc546LxYVZQgYBC8' \
+  -H 'content-length: 384' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Speak toward series look attack instead travel.","maxScore":81,"minScore":29,"description":"Positive response some. Plant close charge. Worker tree approach detail toward.\nLaugh bag however box prepare sound. Reach decade investment.","estimatedTime":"6 weeks","previewFileId":"eacd36af-5eb5-4a59-b87a-0e9ca383a645","createdByUserId":"a8b79b7a-1425-472d-9ac5-9b76308af955"}'

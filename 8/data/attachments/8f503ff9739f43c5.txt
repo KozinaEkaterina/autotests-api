@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTAzVDEzOjAxOjUxLjMxNzQzNSIsInVzZXJfaWQiOiIxODRiZDQ2MC1hN2U4LTQwOGQtOGQxZi0yZGViODRkZTIwNTEifQ.ZNnP_YzRtJH0HI5rbuo1CjG056gB_JATuo4wONwXLQk' \
+  -H 'content-length: 370' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Identify wrong position approach strong somebody citizen.","courseId":"d067a566-6484-4353-9489-a661097acb56","maxScore":87,"minScore":9,"orderIndex":58,"description":"Speak buy design benefit. Lead most cause major nor type.\nDrug pressure result yes himself. Question hard standard off. Past special fast reveal senior quite sense.","estimatedTime":"1 weeks"}'

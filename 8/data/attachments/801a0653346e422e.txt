@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTAzVDEzOjAxOjUxLjU5MDQzNSIsInVzZXJfaWQiOiI3YmFjNDgxZi05ZGNjLTQyYjMtOTliYy0xYTI0NjIzOGQxOWYifQ.HaJ4KBvkKpvjJLnn0p4W4wEJbUNCqzRFtv0BDdB_LPE' \
+  -H 'content-length: 261' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Car fear road interesting.","courseId":"6d71c785-61e5-4ceb-88a5-0fb9c5c36595","maxScore":91,"minScore":22,"orderIndex":97,"description":"Poor modern boy well. Scene almost tree argue source your. Truth guess year name but.","estimatedTime":"10 weeks"}'

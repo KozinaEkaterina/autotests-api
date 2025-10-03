@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTAzVDEzOjAxOjUwLjM5NTY3NiIsInVzZXJfaWQiOiIxOGY5OTY4My1jYzkxLTRhNDYtYmM4OS0zYWI5OWYxZGM3YWUifQ.M4p_yofZp8-UGZL9GkCMFsiu9RYemQsvgELcTmi7CYE' \
+  -H 'content-length: 349' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Determine democratic finish Mrs include before.","maxScore":61,"minScore":9,"description":"Sort during within. Land save direction building hundred line building. Stop both economic exist would east.","estimatedTime":"7 weeks","previewFileId":"6ecdfe64-bf62-4d6a-b9ec-6124b6cce228","createdByUserId":"18f99683-cc91-4a46-bc89-3ab99f1dc7ae"}'

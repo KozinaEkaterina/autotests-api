@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTAzVDEzOjAxOjUxLjMxNzQzNSIsInVzZXJfaWQiOiIxODRiZDQ2MC1hN2U4LTQwOGQtOGQxZi0yZGViODRkZTIwNTEifQ.ZNnP_YzRtJH0HI5rbuo1CjG056gB_JATuo4wONwXLQk' \
+  -H 'content-length: 378' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Else difference couple former fall.","maxScore":80,"minScore":3,"description":"Better lose task exist. Owner about summer hit understand million.\nCenter base administration clear likely. Point security whole nearly past animal.","estimatedTime":"6 weeks","previewFileId":"f806ecad-7349-409c-8773-87fc327603d7","createdByUserId":"184bd460-a7e8-408d-8d1f-2deb84de2051"}'

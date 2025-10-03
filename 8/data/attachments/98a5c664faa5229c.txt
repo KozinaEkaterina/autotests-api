@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTAzVDEzOjAxOjUyLjUyOTg4NiIsInVzZXJfaWQiOiI2ZjE0ZjExYS03MDUwLTRiNTMtYTZjMS1lNWM4YTdkZWJiYzEifQ.5G8bk8DcNdgt_bRkGp7b-squms9xj2E1Mgv1ZoKM_zY' \
+  -H 'content-length: 379' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Standard machine spring technology thank.","maxScore":79,"minScore":20,"description":"Able least actually movement someone chair music. Really surface at up address speak authority key.\nEveryone half first cultural writer adult.","estimatedTime":"8 weeks","previewFileId":"27c9f67f-7fa6-4467-98fe-4bfcee3b9da3","createdByUserId":"6f14f11a-7050-4b53-a6c1-e5c8a7debbc1"}'

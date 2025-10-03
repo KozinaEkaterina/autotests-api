@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/539e132c-0359-4ca4-be73-9729f333852a' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTAzVDEzOjAxOjUxLjU5MDQzNSIsInVzZXJfaWQiOiI3YmFjNDgxZi05ZGNjLTQyYjMtOTliYy0xYTI0NjIzOGQxOWYifQ.HaJ4KBvkKpvjJLnn0p4W4wEJbUNCqzRFtv0BDdB_LPE' \
+  -H 'content-length: 274' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Foreign enjoy student third the what.","maxScore":88,"minScore":12,"orderIndex":79,"description":"North interest activity line hand Democrat life why. Leader anything investment reality population. Less five we might PM forget everyone.","estimatedTime":"5 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTAzVDEzOjAxOjUyLjgwMjYwMiIsInVzZXJfaWQiOiJhOGI3OWI3YS0xNDI1LTQ3MmQtOWFjNS05Yjc2MzA4YWY5NTUifQ.ATw5xg7MzBmQxFdPsq4G67uZdMCIc546LxYVZQgYBC8' \
+  -H 'content-length: 376' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Prevent perform first eat black behavior.","courseId":"c4ecf6a0-512e-415a-838c-583525922a7d","maxScore":92,"minScore":24,"orderIndex":79,"description":"Upon yes happy environmental great. Behavior space enter condition few make. How others head Congress join but.\nTrue century she month discover investment. Interest later enough relate.","estimatedTime":"8 weeks"}'

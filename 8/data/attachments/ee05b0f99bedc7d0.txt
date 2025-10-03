@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTAzVDEzOjAxOjUxLjU5MDQzNSIsInVzZXJfaWQiOiI3YmFjNDgxZi05ZGNjLTQyYjMtOTliYy0xYTI0NjIzOGQxOWYifQ.HaJ4KBvkKpvjJLnn0p4W4wEJbUNCqzRFtv0BDdB_LPE' \
+  -H 'content-length: 411' \
+  -H 'content-type: application/json' \
+  -d '{"title":"With wonder site himself so white experience.","maxScore":56,"minScore":28,"description":"Job part plan religious. Moment play surface much age state.\nFactor party daughter address. Here ten bill by growth social cell. Newspaper continue worker hand deal ever.","estimatedTime":"8 weeks","previewFileId":"aa160428-cc95-46d0-8784-06012ea10990","createdByUserId":"7bac481f-9dcc-42b3-99bc-1a246238d19f"}'

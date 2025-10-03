@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTAzVDEzOjAxOjUwLjEyMjU5OSIsInVzZXJfaWQiOiIwODg1OWUyZi00ODE2LTRjNGQtYjNlOS0zMGJlYTJkZmQ5NTYifQ.qzZdT-dzOO-Zd4s1dnUw97dygRj2pdCUhkk6etUp_K4' \
+  -H 'content-length: 403' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Trouble again free.","maxScore":82,"minScore":20,"description":"Price deep boy sell buy spring play oil. Threat culture whose coach product.\nFollow hair watch arrive trip election. Position trip parent thousand size ability late. Idea generation visit.","estimatedTime":"8 weeks","previewFileId":"950055a0-2fd3-410c-b436-43f0e72d1737","createdByUserId":"08859e2f-4816-4c4d-b3e9-30bea2dfd956"}'
