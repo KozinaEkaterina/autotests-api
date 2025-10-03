@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTAzVDEyOjQ0OjM4LjY0NTgwOCIsInVzZXJfaWQiOiJkNzNkZGQ2Zi0wZTYwLTQwNmItYjFkNi1hYjBhNjZjZjE5NzAifQ.FHsF8hwgpUXreYQ6V6ribMHY-VrRlaoWwotESox1hm4' \
+  -H 'content-length: 371' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Ability yard scientist story sometimes hand.","maxScore":96,"minScore":7,"description":"Help television assume someone assume military. Industry within mean however hit least. Executive walk lot public suggest everything.","estimatedTime":"3 weeks","previewFileId":"4c85013c-ecb7-4763-82ec-cfb91bbf01c0","createdByUserId":"d73ddd6f-0e60-406b-b1d6-ab0a66cf1970"}'

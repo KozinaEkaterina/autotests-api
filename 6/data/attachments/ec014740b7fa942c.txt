@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/90bcf29d-68ce-4e87-bf5f-3e16afa90b0e' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTAzVDEyOjQ0OjQwLjExMjYwNSIsInVzZXJfaWQiOiI4NGUzNjYyZC0zZGU0LTQwOGEtOGNiNi0xMjQ5ZjlmMDQyM2MifQ.AbexMxTf3H0USbtelUyLMYlmzMBoaeyP1xDiMzZtvZQ' \
+  -H 'content-length: 292' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Star key her movie environmental find.","maxScore":79,"minScore":1,"orderIndex":63,"description":"Fast year realize whole everything price.\nMust tough if court. Amount bit store remain management month memory. List agency thing organization building us.","estimatedTime":"6 weeks"}'

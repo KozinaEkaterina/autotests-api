@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTAzVDEyOjQ0OjM5Ljg0MDg3OSIsInVzZXJfaWQiOiJkMDQ1NTMyMi1iZjI0LTRjMTMtYjc4ZC05YzFlYzU0Y2YwMDgifQ.LjYAlWRZ-ku3WEFerkfgkyWM88o0TMcTV8CB7wcl16I' \
+  -H 'content-length: 428' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Identify Democrat item ability air high.","maxScore":58,"minScore":11,"description":"Themselves I begin you. Church bill store all bill set environmental. Son feeling style meet memory paper.\nSuccessful alone election entire professor game during. Machine as across share hope.","estimatedTime":"1 weeks","previewFileId":"7bbbea81-ef7f-491b-ab14-bb28770d1192","createdByUserId":"d0455322-bf24-4c13-b78d-9c1ec54cf008"}'

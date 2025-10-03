@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTAzVDEyOjQ0OjM3LjUwNDU2MSIsInVzZXJfaWQiOiI2OTk4YzQ4Yi03YWEzLTQzMDYtYjJhNS1lNDkxZjdlNjE3MWMifQ.HqE0ARmesd9yb-fBZNsTBZzgOMaZr5bHj4UvNEUWZ-c' \
+  -H 'content-length: 334' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Open politics push throw.","maxScore":66,"minScore":2,"description":"Magazine finish back head nice four evidence way. Quite discover seek term week. Test on month set strategy change.","estimatedTime":"4 weeks","previewFileId":"301d0121-cde0-45cf-a2ec-0b95de48a19a","createdByUserId":"6998c48b-7aa3-4306-b2a5-e491f7e6171c"}'

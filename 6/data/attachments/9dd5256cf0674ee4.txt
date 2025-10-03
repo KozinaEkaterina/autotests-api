@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTAzVDEyOjQ0OjQxLjAzMDY4NyIsInVzZXJfaWQiOiIxYTEyZWE2ZC0yYjI2LTQzYzYtYWNjZC00Mjc4OTk0MDBiZTAifQ.DRJexAJAjKBxV04M5z7JQtDtvWwIrt-uRXcfS5Xg9x4' \
+  -H 'content-length: 355' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Parent range mention food major.","courseId":"3c28ffa7-e8d5-452e-a8d9-fe63d2d78178","maxScore":90,"minScore":9,"orderIndex":65,"description":"People store never seven. Also off learn into apply theory.\nFast college consider contain leg. Week money whether guess happy receive capital his.\nAsk no those success week.","estimatedTime":"8 weeks"}'

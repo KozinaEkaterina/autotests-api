@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/3eafa370-05c3-4bb5-a549-682cabff3a19' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTAzVDEyOjQ0OjM4LjkyMDYzNSIsInVzZXJfaWQiOiJlNWM5YTI5NC1jNWFjLTRmYjEtOTEyYy1hYzkzN2IzNTIyOTQifQ.1pefhC8eAFrRtKukCwcK8fa8fZLU36gCZY92lNILLTI' \
+  -H 'content-length: 302' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Half campaign amount organization nor cost.","maxScore":85,"minScore":25,"description":"Traditional almost piece view. Still seem now.\nPick compare idea natural guess. Statement perform arrive in reach budget. Southern imagine necessary north bed understand also.","estimatedTime":"9 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTAzVDEyOjQ0OjQwLjExMjYwNSIsInVzZXJfaWQiOiI4NGUzNjYyZC0zZGU0LTQwOGEtOGNiNi0xMjQ5ZjlmMDQyM2MifQ.AbexMxTf3H0USbtelUyLMYlmzMBoaeyP1xDiMzZtvZQ' \
+  -H 'content-length: 365' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Actually receive go all once.","maxScore":86,"minScore":11,"description":"Fish old view organization most season over group. Recent as edge remember media.\nAgency section animal others. Free threat would agreement.","estimatedTime":"9 weeks","previewFileId":"c7d5e623-0afe-47de-b2c4-0a6a1058324a","createdByUserId":"84e3662d-3de4-408a-8cb6-1249f9f0423c"}'

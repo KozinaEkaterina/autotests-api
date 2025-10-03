@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTAzVDEyOjQ0OjQyLjI2MjQ4NSIsInVzZXJfaWQiOiI4N2NkZDg3Yy05ZjBiLTRkYjItODNlZi05OGFjNGQ0ZmYxNTYifQ.ZlyaXgLnBE9H4GwTOgnqCs6GKpxfOJ5KbSrqNmlbUz8' \
+  -H 'content-length: 338' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Whole line green yeah bit sea fill.","maxScore":51,"minScore":23,"description":"Memory sea alone see live raise detail. Word thing sense anything. Evidence hope view save tell herself him.","estimatedTime":"7 weeks","previewFileId":"48215343-68c6-496d-87cd-51701bc857b1","createdByUserId":"87cdd87c-9f0b-4db2-83ef-98ac4d4ff156"}'

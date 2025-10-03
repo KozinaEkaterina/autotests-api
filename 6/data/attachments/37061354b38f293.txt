@@ -1,0 +1,33 @@
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     SWAGGER_COVERAGE_TRACKER_STORAGE:storage.py:34 Results directory does not exist, creating: coverage-results
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:26 Make GET request to http://localhost:8000/api/v1/courses?userId=6998c48b-7aa3-4306-b2a5-e491f7e6171c
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/courses?userId=6998c48b-7aa3-4306-b2a5-e491f7e6171c
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:71 Check get courses response
+INFO     BASE_ASSERTIONS:base.py:74 Check that length of "courses" equals to 1
+INFO     COURSES_ASSERTIONS:courses.py:47 Check course
+INFO     BASE_ASSERTIONS:base.py:38 Check that "id" equals to 8110c3b9-7497-46c3-b2a3-ac571dd0bb40
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals to Open politics push throw.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "max_score" equals to 66
+INFO     BASE_ASSERTIONS:base.py:38 Check that "min_score" equals to 2
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals to Magazine finish back head nice four evidence way. Quite discover seek term week. Test on month set strategy change.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals to 4 weeks
+INFO     FILES_ASSERTIONS:files.py:61 Check file
+INFO     BASE_ASSERTIONS:base.py:38 Check that "id" equals to 301d0121-cde0-45cf-a2ec-0b95de48a19a
+INFO     BASE_ASSERTIONS:base.py:38 Check that "url" equals to http://localhost:8000/static/tests/08b1453e-6e81-4626-97c0-1bd02d6d6a26.png
+INFO     BASE_ASSERTIONS:base.py:38 Check that "filename" equals to 08b1453e-6e81-4626-97c0-1bd02d6d6a26.png
+INFO     BASE_ASSERTIONS:base.py:38 Check that "directory" equals to tests
+INFO     USERS_ASSERTIONS:users.py:38 Check user
+INFO     BASE_ASSERTIONS:base.py:38 Check that "id" equals to 6998c48b-7aa3-4306-b2a5-e491f7e6171c
+INFO     BASE_ASSERTIONS:base.py:38 Check that "email" equals to angelarobinson@example.com
+INFO     BASE_ASSERTIONS:base.py:38 Check that "first_name" equals to Brittney
+INFO     BASE_ASSERTIONS:base.py:38 Check that "last_name" equals to Wolfe
+INFO     BASE_ASSERTIONS:base.py:38 Check that "middle_name" equals to Kim
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validating JSON schema
