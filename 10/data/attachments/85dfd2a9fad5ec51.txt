@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/dca7222f-1d21-4e3b-b5a9-fca299c9cfa7' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTAzVDEzOjA4OjU3LjI1NTM2NCIsInVzZXJfaWQiOiJlOGI2NjIwYi1iOTUwLTRmZGMtYTIxNy02M2I1YjMyY2UwNjMifQ.A8hl5hWkhLdqQgdyqOkHULBzbtDg35BLwrRy5Ao-jVM' \
+  -H 'content-length: 304' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Single her citizen movie event.","maxScore":88,"minScore":30,"orderIndex":30,"description":"Off a charge occur former. Nor program federal white range away clear ask. Tend authority middle quality end base.\nTruth fund with think risk song. School produce able goal.","estimatedTime":"1 weeks"}'

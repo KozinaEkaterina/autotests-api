@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTAzVDEzOjA4OjU2Ljk4MjE3MyIsInVzZXJfaWQiOiI0NDlmMTc4OS05M2YyLTQ2NGUtODRkMC0wZTY1Yzk3ZWMzNTYifQ.kBjOPzj0ubAZC0SAtItrlquoaPXfBYOHlZuxLxiCUYs' \
+  -H 'content-length: 416' \
+  -H 'content-type: application/json' \
+  -d '{"title":"I she figure serious.","maxScore":63,"minScore":11,"description":"Give job allow practice democratic assume total development. Open former country section shake window. Middle onto card test worry.\nSure suddenly become benefit. Bit subject wind him many such heavy.","estimatedTime":"6 weeks","previewFileId":"472f587e-de81-4f00-993e-0876e0d06278","createdByUserId":"449f1789-93f2-464e-84d0-0e65c97ec356"}'

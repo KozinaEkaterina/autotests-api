@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTAzVDEzOjA4OjU4LjE4NjQ4MCIsInVzZXJfaWQiOiIyMDEwMDAwZC0yZDIzLTQ4NzEtOGVmYS03OTBmNDRhZTllODkifQ.7jadWKviardTWVT-QIINRZiNapBZNsqJ8kN2aeOtCr8' \
+  -H 'content-length: 372' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Hundred list above least within develop meeting town.","maxScore":95,"minScore":7,"description":"Eat direction condition certain. Surface where professor something time beautiful. Staff pressure public huge pay good music.","estimatedTime":"1 weeks","previewFileId":"84abc55e-bc9b-4e24-8979-bafd44acefe0","createdByUserId":"2010000d-2d23-4871-8efa-790f44ae9e89"}'

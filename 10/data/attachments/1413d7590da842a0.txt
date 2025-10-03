@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTAzVDEzOjA4OjU2LjA1NDUzNSIsInVzZXJfaWQiOiI5MjBmNGI4Mi1jNzEwLTQ0ZjQtOTJmZS1lYTZhYzY0OTExZWQifQ.TiakodJxSENOoRW9_JIBkHF6b7mrinf54DrtYhaBMZU' \
+  -H 'content-length: 416' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Far six mother away manager play.","maxScore":85,"minScore":5,"description":"Evening lose suggest including generation even large. President commercial speak country vote suffer.\nEdge open a election see.\nEvent international evening could market nothing memory by.","estimatedTime":"5 weeks","previewFileId":"542d27c7-cb07-4f37-902f-09b29f7d696c","createdByUserId":"920f4b82-c710-44f4-92fe-ea6ac64911ed"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTAzVDEzOjA4OjU1Ljc4MTM5MyIsInVzZXJfaWQiOiIyNDRmNDE5Ny1iODZhLTQ3ZWMtOWQ5Yi1mNWMwMzk1YjIzY2MifQ.seSX0YE2MUwOW80IIuPy9ka3E7adjC5s-FHMjXAipNw' \
+  -H 'content-length: 321' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Far various field.","maxScore":88,"minScore":22,"description":"Throw official exist audience budget PM. Detail arrive brother very guy dog language. His individual front.","estimatedTime":"10 weeks","previewFileId":"59defe70-8bab-484e-99df-800a643c743d","createdByUserId":"244f4197-b86a-47ec-9d9b-f5c0395b23cc"}'

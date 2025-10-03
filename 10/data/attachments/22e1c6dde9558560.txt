@@ -1,0 +1,33 @@
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     SWAGGER_COVERAGE_TRACKER_STORAGE:storage.py:34 Results directory does not exist, creating: /home/runner/work/autotests-api/autotests-api/coverage-results
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:26 Make GET request to http://localhost:8000/api/v1/courses?userId=0f92b05e-59f7-4673-a3db-465b9dbc6b95
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/courses?userId=0f92b05e-59f7-4673-a3db-465b9dbc6b95
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:71 Check get courses response
+INFO     BASE_ASSERTIONS:base.py:74 Check that length of "courses" equals to 1
+INFO     COURSES_ASSERTIONS:courses.py:47 Check course
+INFO     BASE_ASSERTIONS:base.py:38 Check that "id" equals to 01b1d6c1-acb6-406e-a28d-fb84a47df144
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals to East science prepare reduce officer thank.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "max_score" equals to 70
+INFO     BASE_ASSERTIONS:base.py:38 Check that "min_score" equals to 14
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals to Lose hold company over very interest natural doctor. Series speech growth white natural company investment.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals to 2 weeks
+INFO     FILES_ASSERTIONS:files.py:61 Check file
+INFO     BASE_ASSERTIONS:base.py:38 Check that "id" equals to 7be026dd-38e6-4978-88f6-3f1081accf3f
+INFO     BASE_ASSERTIONS:base.py:38 Check that "url" equals to http://localhost:8000/static/tests/ca7d89db-d371-4a5e-a16b-13f07ec1a093.png
+INFO     BASE_ASSERTIONS:base.py:38 Check that "filename" equals to ca7d89db-d371-4a5e-a16b-13f07ec1a093.png
+INFO     BASE_ASSERTIONS:base.py:38 Check that "directory" equals to tests
+INFO     USERS_ASSERTIONS:users.py:38 Check user
+INFO     BASE_ASSERTIONS:base.py:38 Check that "id" equals to 0f92b05e-59f7-4673-a3db-465b9dbc6b95
+INFO     BASE_ASSERTIONS:base.py:38 Check that "email" equals to thomasmichael@example.com
+INFO     BASE_ASSERTIONS:base.py:38 Check that "first_name" equals to Colton
+INFO     BASE_ASSERTIONS:base.py:38 Check that "last_name" equals to Levy
+INFO     BASE_ASSERTIONS:base.py:38 Check that "middle_name" equals to Kevin
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validating JSON schema

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTAzVDEzOjA4OjU4LjQ2MDMzNiIsInVzZXJfaWQiOiI1MDc0MzI4Ni1hMjQxLTQzNDAtYTkyMi0yMGNiZGRkNTMwNjUifQ.Mp0-m-mbrtqJceGATWwIC1X_DJA6piTlKvZEzrphcSY' \
+  -H 'content-length: 421' \
+  -H 'content-type: application/json' \
+  -d '{"title":"World describe already heart response former consumer.","maxScore":63,"minScore":8,"description":"Rule already say some senior board.\nColor nothing sit view cut each son. Particular wonder international activity send.\nPresident sort leg new direction work animal offer.","estimatedTime":"7 weeks","previewFileId":"4b3ea785-f15c-4793-a73e-d7f86b5427fa","createdByUserId":"50743286-a241-4340-a922-20cbddd53065"}'

@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/72dbc914-0fb1-418b-9290-547793bfcb79' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTAzVDEzOjA4OjU2LjA1NDUzNSIsInVzZXJfaWQiOiI5MjBmNGI4Mi1jNzEwLTQ0ZjQtOTJmZS1lYTZhYzY0OTExZWQifQ.TiakodJxSENOoRW9_JIBkHF6b7mrinf54DrtYhaBMZU' \
+  -H 'content-length: 257' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Feel national play require.","maxScore":70,"minScore":7,"description":"Course election structure see yet answer. Still serious admit quickly series class. Positive sure move expert. Something ability stay letter really.","estimatedTime":"9 weeks"}'

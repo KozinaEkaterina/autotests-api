@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTAzVDEzOjA4OjU2Ljk4MjE3MyIsInVzZXJfaWQiOiI0NDlmMTc4OS05M2YyLTQ2NGUtODRkMC0wZTY1Yzk3ZWMzNTYifQ.kBjOPzj0ubAZC0SAtItrlquoaPXfBYOHlZuxLxiCUYs' \
+  -H 'content-length: 364' \
+  -H 'content-type: application/json' \
+  -d '{"title":"All occur top go door study put.","courseId":"0758aa30-d0e9-41eb-b41e-0e21ad715a40","maxScore":88,"minScore":1,"orderIndex":54,"description":"Soldier one none country full. Issue middle society throughout pull bank let beyond. Politics make leader.\nAgency fine hotel eat. Outside either vote represent. Newspaper goal point.","estimatedTime":"10 weeks"}'

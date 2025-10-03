@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTAzVDEzOjA4OjU0LjYzNTM0MiIsInVzZXJfaWQiOiIwZjkyYjA1ZS01OWY3LTQ2NzMtYTNkYi00NjViOWRiYzZiOTUifQ.B-13MKXqIoXMmDnz1d9AES2446lWD5zhSK25K5CjOQs' \
+  -H 'content-length: 344' \
+  -H 'content-type: application/json' \
+  -d '{"title":"East science prepare reduce officer thank.","maxScore":70,"minScore":14,"description":"Lose hold company over very interest natural doctor. Series speech growth white natural company investment.","estimatedTime":"2 weeks","previewFileId":"7be026dd-38e6-4978-88f6-3f1081accf3f","createdByUserId":"0f92b05e-59f7-4673-a3db-465b9dbc6b95"}'

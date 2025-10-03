@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTAzVDEzOjA4OjU5LjQyNDg0MSIsInVzZXJfaWQiOiIzYTBjNjczOS1iMjhmLTRhN2UtYTg0Yy03MGJhYWUzZWEwNjEifQ.rva-a3rdRhDDZ-GoN_NwHfHk0TgIoGnoft47ZL4HBpY' \
+  -H 'content-length: 286' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Then since smile.","maxScore":76,"minScore":14,"description":"High peace significant.\nGarden science they piece significant tax person.","estimatedTime":"4 weeks","previewFileId":"a8f1083e-5296-4a86-9e08-9e14726ee96b","createdByUserId":"3a0c6739-b28f-4a7e-a84c-70baae3ea061"}'

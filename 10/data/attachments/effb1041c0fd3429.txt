@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTAzVDEzOjA4OjU3LjI1NTM2NCIsInVzZXJfaWQiOiJlOGI2NjIwYi1iOTUwLTRmZGMtYTIxNy02M2I1YjMyY2UwNjMifQ.A8hl5hWkhLdqQgdyqOkHULBzbtDg35BLwrRy5Ao-jVM' \
+  -H 'content-length: 314' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Evidence dinner pattern growth mind clearly everyone.","maxScore":66,"minScore":3,"description":"Daughter few western foreign. Young approach million leg job story.","estimatedTime":"8 weeks","previewFileId":"d8af9e04-21ad-4abd-9c98-08054e2f6155","createdByUserId":"e8b6620b-b950-4fdc-a217-63b5b32ce063"}'
