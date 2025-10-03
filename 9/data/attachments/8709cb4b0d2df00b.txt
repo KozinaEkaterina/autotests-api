@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTAzVDEzOjA0OjIzLjkwMDQyNiIsInVzZXJfaWQiOiI4OWI0ZTA4Zi0yNGY5LTRhZDMtYWYyYi0zMDhiZmFkYzAyY2IifQ.DYP_o8TCrIjgJAOeIrX-6k7D5cc3M0Ec9WZ1Ie_Ftuw' \
+  -H 'content-length: 359' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Teach process especially behavior for resource.","maxScore":67,"minScore":30,"description":"Television worry reflect successful be. Stage national maybe glass modern whose probably theory. Example month road.","estimatedTime":"10 weeks","previewFileId":"0bef227f-f2f8-4bd9-8ed5-036a96e2c511","createdByUserId":"89b4e08f-24f9-4ad3-af2b-308bfadc02cb"}'

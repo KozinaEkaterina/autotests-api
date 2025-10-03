@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTAzVDEzOjA0OjI0LjE3MzgzNSIsInVzZXJfaWQiOiJlOWM1OWM5NS1lYTUyLTRkNDItOTlkNS0yMjljZjE1YjMxYmQifQ.WJohcsnup69H-LHbH-2Ci7BXpb0hJtS5oMFo-2ojaJc' \
+  -H 'content-length: 364' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Us allow who later total hand analysis.","maxScore":98,"minScore":2,"description":"Me service explain bar. Leader discussion as west strong.\nLet treat catch worry public likely measure. Worry sister attention kid.","estimatedTime":"1 weeks","previewFileId":"125eade5-5907-4afe-a1ad-77a91ae67ec7","createdByUserId":"e9c59c95-ea52-4d42-99d5-229cf15b31bd"}'

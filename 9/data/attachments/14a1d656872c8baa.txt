@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTAzVDEzOjA0OjI2LjM2NDk3MiIsInVzZXJfaWQiOiIxYTkwYThkZC03NDQ3LTRjZjUtOWEyNy1jNjczYmEwYmZmNDIifQ.WbPGFTi1Rwhiztx-WgSkxn3Sz5_To1uco8QGuRl1UJc' \
+  -H 'content-length: 352' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Soldier green our ask.","maxScore":86,"minScore":1,"description":"One machine audience expect support. Officer single activity note dream total forget. Many marriage particularly security partner truth.","estimatedTime":"4 weeks","previewFileId":"e475c1bb-0381-47fe-91c2-6cb9195f3f3c","createdByUserId":"1a90a8dd-7447-4cf5-9a27-c673ba0bff42"}'

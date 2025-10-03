@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/cd48282b-d544-4890-abba-3a0665c5f09a' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTAzVDEzOjA0OjIyLjk4ODIwOSIsInVzZXJfaWQiOiIwZjE3MmI2OS1lY2VmLTRkMTEtOGEzZi03MWFhNTEyYWFlZTAifQ.4W1WrWADM4yPxFODHVDpPy3SpYFfKd3m1AAyeLPtBOA' \
+  -H 'content-length: 193' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Ago case become learn.","maxScore":89,"minScore":20,"description":"We matter him nor indeed author interview big. Television energy mouth region miss site.","estimatedTime":"1 weeks"}'

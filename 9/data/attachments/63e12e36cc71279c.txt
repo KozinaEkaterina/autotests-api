@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTAzVDEzOjA0OjIyLjcxMzU2MyIsInVzZXJfaWQiOiI1YWJjNmVmNC04ZDVkLTQyZGItYmZiYS05Y2Q5ZGQyMDg0NDYifQ.FGd8Ay8pOcS0vdFildo9mykMNhzIWHyYxO6FzmYIZ8c' \
+  -H 'content-length: 347' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Attorney assume agree southern.","maxScore":79,"minScore":21,"description":"What herself sister begin east. Professional eye exist body mission process system. Song building major computer concern.","estimatedTime":"1 weeks","previewFileId":"b3fbdc8c-df24-4217-a429-d50d9987122d","createdByUserId":"5abc6ef4-8d5d-42db-bfba-9cd9dd208446"}'

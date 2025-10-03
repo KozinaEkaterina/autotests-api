@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTAzVDEzOjA0OjIyLjk4ODIwOSIsInVzZXJfaWQiOiIwZjE3MmI2OS1lY2VmLTRkMTEtOGEzZi03MWFhNTEyYWFlZTAifQ.4W1WrWADM4yPxFODHVDpPy3SpYFfKd3m1AAyeLPtBOA' \
+  -H 'content-length: 296' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Specific join investment degree.","maxScore":72,"minScore":2,"description":"Positive some protect blood. Early thousand tree these and fish plant.","estimatedTime":"2 weeks","previewFileId":"e73ccd5e-1b0a-496a-a2d6-79a0526638ca","createdByUserId":"0f172b69-ecef-4d11-8a3f-71aa512aaee0"}'
