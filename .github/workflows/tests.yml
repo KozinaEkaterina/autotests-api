@@ -57,8 +57,10 @@ jobs:
       - name: Generate Coverage report
         run: |
           swagger-coverage-tool save-report
+          echo "Listing files to verify report presence:"
+          ls -la
 
-      - name: Cache Coverage  history
+      - name: Cache Coverage history
         if: always()
         uses: actions/cache/save@v4.3.0
         with:
@@ -71,6 +73,7 @@ jobs:
         with:
           name: coverage-report
           path: coverage.html
+          if-no-files-found: error
 
       - name: Upload Allure results
         if: always()
