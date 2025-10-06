@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTA2VDEyOjA4OjQwLjkxOTAwMCIsInVzZXJfaWQiOiI2NTNjODVjMC05NDdkLTQxMTAtYjdiZS05ZjQwZWRjMTc0ZGEifQ.ihIcbr7HOay-1idQgdL_XwCcB2RX4YwRUqjgSJCU9p0' \
+  -H 'content-length: 318' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Maybe easy foot issue yard.","courseId":"574f7d3c-8d48-4a09-8986-70faa54de89a","maxScore":88,"minScore":4,"orderIndex":67,"description":"Stock hand task throughout color argue return. Defense bank short catch. Yes mention green in. Recently suffer know wonder above majority sort.","estimatedTime":"4 weeks"}'

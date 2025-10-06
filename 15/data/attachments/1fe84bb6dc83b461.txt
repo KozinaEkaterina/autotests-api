@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTA2VDEyOjA4OjM4LjU5NzM4MiIsInVzZXJfaWQiOiJjODYxYzVlZi0yNDUwLTQwYTAtOTQ1My05ZTRiYzU3MmY1ZWIifQ.eY7Mx3eaiHlV4pML7tJN2lnuwcruPuos4K6Qc61OSyI' \
+  -H 'content-length: 401' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Carry speech energy participant hope win hope.","maxScore":90,"minScore":6,"description":"Unit court buy enough other dog. Pick do research situation process decision book team.\nReal reflect actually. Security success various way work long religious.","estimatedTime":"1 weeks","previewFileId":"78ab4b48-4b90-4447-a34d-5926df5e1948","createdByUserId":"c861c5ef-2450-40a0-9453-9e4bc572f5eb"}'

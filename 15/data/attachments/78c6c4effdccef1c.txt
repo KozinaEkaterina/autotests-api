@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTA2VDEyOjA4OjM5LjcxMjAzMiIsInVzZXJfaWQiOiI4ZTk1MTU0Mi1lZDNhLTRlYWEtOTRhOC0xMzc2YTZlZDBlNDgifQ.O_E0m8QSvoi07y0jI_vdEppENWD_NqpJ-_R3jkPzPfE' \
+  -H 'content-length: 366' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Have new green though once.","maxScore":90,"minScore":20,"description":"Tree loss pretty major agreement view stuff. Individual choose person form rock break. Piece reason special remember wrong summer edge American.","estimatedTime":"1 weeks","previewFileId":"4b5d248a-dafc-4fc2-9872-091081bdd0b2","createdByUserId":"8e951542-ed3a-4eaa-94a8-1376a6ed0e48"}'

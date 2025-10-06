@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTA2VDEyOjA4OjM3LjQzMDk4NCIsInVzZXJfaWQiOiIwODkwODJkNC1mODNkLTRkM2YtOThjOC04NTFiODIyNjBiNmYifQ.qejxf3HZXDpYWDItwh94TW9STDN9zxq3iVYWVPKzITA' \
+  -H 'content-length: 350' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Week instead similar operation forget.","maxScore":92,"minScore":10,"description":"Bank may tonight pass never happen trade forward. Ago describe try purpose least appear. Anyone outside senior color.","estimatedTime":"6 weeks","previewFileId":"58997a02-57f7-49f3-b13f-0a6ed42e2a99","createdByUserId":"089082d4-f83d-4d3f-98c8-851b82260b6f"}'

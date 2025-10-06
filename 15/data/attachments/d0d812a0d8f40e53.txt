@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTA2VDEyOjA4OjM4LjU5NzM4MiIsInVzZXJfaWQiOiJjODYxYzVlZi0yNDUwLTQwYTAtOTQ1My05ZTRiYzU3MmY1ZWIifQ.eY7Mx3eaiHlV4pML7tJN2lnuwcruPuos4K6Qc61OSyI' \
+  -H 'content-length: 339' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Different other marriage stuff yeah right.","courseId":"41ca6e0a-4749-4ec3-982f-9a1b20d4b412","maxScore":86,"minScore":30,"orderIndex":72,"description":"Letter mind person specific left. Card may skin century town same.\nNot cup everybody mission until quite sea. Work leader present public represent.","estimatedTime":"9 weeks"}'

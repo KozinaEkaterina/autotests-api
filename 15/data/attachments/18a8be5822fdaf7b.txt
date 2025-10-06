@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/7e8b1c9e-edd8-4c96-bc02-3515fedde7b3' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTA2VDEyOjA4OjM4LjAzOTg0MyIsInVzZXJfaWQiOiI2NDMwOWI4MS0xMDAzLTRiZGMtYjM5OS1mZjgxODA4YzJkZTIifQ.UK5-BV23bV5BMcpGIh3s6cZS1NQJ7D2T-6qXNPzn6hQ' \
+  -H 'content-length: 299' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Ok analysis thing company final.","maxScore":99,"minScore":9,"description":"Form study teach he which serious. Attention none yard spring western.\nLight stop design. Wide hospital through law. Throw successful cover create. Ball popular scene authority before.","estimatedTime":"8 weeks"}'

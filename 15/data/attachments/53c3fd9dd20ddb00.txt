@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTA2VDEyOjA4OjQwLjM2MTY1MyIsInVzZXJfaWQiOiJiYTI5ZWIyMC03ODNjLTQ5MDItYjRmZS05ZDk1ZGQzY2NhZmMifQ.YrKTrraVr7ECormT_YrtFzExqRheZUMr9uXIJlG16ZU' \
+  -H 'content-length: 323' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Hot meeting kitchen approach.","maxScore":58,"minScore":4,"description":"Rule her stop nothing special. News education candidate because. Computer child call pick fish less.","estimatedTime":"7 weeks","previewFileId":"c3e25463-632d-43cf-a01f-6cb32d4884a6","createdByUserId":"ba29eb20-783c-4902-b4fe-9d95dd3ccafc"}'
