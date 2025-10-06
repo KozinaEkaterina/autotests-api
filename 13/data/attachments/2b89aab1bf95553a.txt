@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTA2VDEyOjAxOjU3LjUyNzMxNiIsInVzZXJfaWQiOiJiNmU1ZTk5NS1hOTZiLTRiYjktODBiNS01MDY5YzU1MGVlZDUifQ.Ql4swG1ywFtI7y348XZEPRHYzxuc7m7JgA8oHx43z-o' \
+  -H 'content-length: 379' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Baby red again.","maxScore":72,"minScore":19,"description":"Key teach four apply north. Stock night understand drive.\nHuge high house reason week local.\nBeyond the matter partner few material. Role family investment care share.","estimatedTime":"9 weeks","previewFileId":"7aae7a63-de3a-423c-96a5-c370d99758f3","createdByUserId":"b6e5e995-a96b-4bb9-80b5-5069c550eed5"}'

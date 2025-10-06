@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTA2VDEyOjAxOjU1LjA2ODg3NCIsInVzZXJfaWQiOiIyNDRlODRlZi1hYjgyLTQyNWMtYmI5OC02N2I3ZGNiYjJlNGEifQ.evZoJ87iHJKFTTMuHkRI-MpHHlTUCcliDk8TtgRlSOQ' \
+  -H 'content-length: 437' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Image pretty answer government PM nice.","maxScore":100,"minScore":21,"description":"Fact west worry particular. Plan believe kitchen modern. Usually out lay focus enough recent represent.\nUpon not pattern each. Animal Democrat thank.\nRecent child prevent common. Policy citizen skin.","estimatedTime":"10 weeks","previewFileId":"cd4f00f4-cf47-4e0e-a46d-871ae43d16e2","createdByUserId":"244e84ef-ab82-425c-bb98-67b7dcbb2e4a"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTA2VDEyOjAxOjU2LjU0OTM5MiIsInVzZXJfaWQiOiI5N2ExMTcyNi01YjgxLTQ4ZGUtYWUzZS1mNDYzNWU0Y2I3ZDcifQ.h9jMTBWc2tHqH1gTU5M_U9vyQPvgrI12B61AHgC8j0E' \
+  -H 'content-length: 350' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Rather impact onto past now out response.","maxScore":97,"minScore":13,"description":"Something white cause owner. Discuss million speak fill media single mind. Science point final give here anything.","estimatedTime":"2 weeks","previewFileId":"6f85d50d-69e7-4303-8ce9-814f7ff932c0","createdByUserId":"97a11726-5b81-48de-ae3e-f4635e4cb7d7"}'

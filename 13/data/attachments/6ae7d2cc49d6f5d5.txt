@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/9b89f910-e34e-4b5f-a8ff-bf2645dcba96' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTA2VDEyOjAxOjU0LjE0ODI0NyIsInVzZXJfaWQiOiIxNWZjMWVhNS1iY2E3LTQ0MjYtYmUyMS0wYTUxMWIxNzQ4ODIifQ.W-LtZ6lWSoAA0SiwF5KIr4Ka7OuS6YbfTi37m-V6iRE' \
+  -H 'content-length: 330' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Audience former watch picture mother head realize.","maxScore":57,"minScore":4,"description":"Everyone through Congress trouble effort ground majority. New she give side development. Difficult pull administration instead able.\nGas live pattern behavior. Boy glass benefit break pick nature.","estimatedTime":"10 weeks"}'

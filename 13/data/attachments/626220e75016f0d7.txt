@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTA2VDEyOjAxOjU0LjE0ODI0NyIsInVzZXJfaWQiOiIxNWZjMWVhNS1iY2E3LTQ0MjYtYmUyMS0wYTUxMWIxNzQ4ODIifQ.W-LtZ6lWSoAA0SiwF5KIr4Ka7OuS6YbfTi37m-V6iRE' \
+  -H 'content-length: 399' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Quality care reality your.","maxScore":89,"minScore":10,"description":"Billion democratic me others seat language. Agreement middle have hair Mrs executive.\nThree Congress raise build analysis. Word base return east. Wear computer citizen pressure.","estimatedTime":"9 weeks","previewFileId":"f8286022-9abb-481e-b3af-c0751faac198","createdByUserId":"15fc1ea5-bca7-4426-be21-0a511b174882"}'

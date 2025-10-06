@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTA2VDEyOjAxOjU2LjI3NDc1MyIsInVzZXJfaWQiOiI2Yzk1ZTcxNi1iNjQwLTQyNmItODMyZC0zZmVkODI2ZWFkZjIifQ.lH3JKsK4kKDQUyEj20N3f2GnzfVfoXSJ3mXcUov3Ons' \
+  -H 'content-length: 304' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Performance at left yes.","courseId":"f29b0557-a523-4213-8dc8-0275db72f46c","maxScore":86,"minScore":1,"orderIndex":99,"description":"Face wall hair player. Nearly contain recent which smile money. Exist tell feel size whom she move without. Term truth discuss name.","estimatedTime":"7 weeks"}'

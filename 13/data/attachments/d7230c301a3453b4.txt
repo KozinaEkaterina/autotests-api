@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/3b74a05f-5fce-4c10-a0b8-863e1b9f2764' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTA2VDEyOjAxOjU1LjM0MzY1MiIsInVzZXJfaWQiOiI3MGNkOTZkNS1jNDUzLTRkOTAtYTRhNS0wNzBhOTE1MDc0NTQifQ.P8uRykxK3o57pHi0kbUCwdnyzsxlPioJBcZzMH2tt4o' \
+  -H 'content-length: 271' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Represent power next success energy lot check.","maxScore":69,"minScore":15,"orderIndex":15,"description":"Other late bring happen. Leg daughter benefit by that site.\nModel industry break maintain. Allow ahead all produce know goal.","estimatedTime":"6 weeks"}'

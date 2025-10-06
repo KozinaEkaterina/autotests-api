@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTA2VDEyOjAxOjU2LjI3NDc1MyIsInVzZXJfaWQiOiI2Yzk1ZTcxNi1iNjQwLTQyNmItODMyZC0zZmVkODI2ZWFkZjIifQ.lH3JKsK4kKDQUyEj20N3f2GnzfVfoXSJ3mXcUov3Ons' \
+  -H 'content-length: 356' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Begin couple cover nation spend.","maxScore":100,"minScore":30,"description":"Build bill exist when.\nBelieve social how respond. Simple occur final it.\nSociety approach rather natural rather take culture.","estimatedTime":"9 weeks","previewFileId":"0b070c55-f49a-474c-af50-bdc413378fa0","createdByUserId":"6c95e716-b640-426b-832d-3fed826eadf2"}'

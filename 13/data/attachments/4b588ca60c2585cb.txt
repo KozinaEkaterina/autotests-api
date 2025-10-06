@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTA2VDEyOjAxOjUzLjg3NDY3MiIsInVzZXJfaWQiOiI1NTg2ODZmOS03ZjI0LTQ3MTMtYjM0NC1hNDhjNWM4YjYyNDIifQ.E-GHw3G8mkqxKZrzLsO-8_s_TwWZ__KE7KdKH8f7Az0' \
+  -H 'content-length: 361' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Get guess vote.","maxScore":88,"minScore":20,"description":"Television church reflect. Region detail throughout many.\nWall degree population research project. Road agent official campaign ask. Chance note safe.","estimatedTime":"7 weeks","previewFileId":"85a4631c-ee3d-491c-b6fa-0cbbd812da9e","createdByUserId":"558686f9-7f24-4713-b344-a48c5c8b6242"}'
