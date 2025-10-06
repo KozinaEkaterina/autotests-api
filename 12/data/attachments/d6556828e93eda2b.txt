@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/5ac9b4af-2dff-4ddc-8ec4-0c042901e283' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTA2VDExOjM0OjE0LjUwMDI2OSIsInVzZXJfaWQiOiIxYmU3YmVlZC03ODNiLTQ2OGQtYmJkMC1mNGRkNzZmYmZhNDMifQ.kZCEQ1zucPzNMZtJoEGuyp7i5O5hpJ6HWqitzxAf6Qg' \
+  -H 'content-length: 287' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Successful money movie arm cut list.","maxScore":93,"minScore":5,"description":"Per station mouth finally operation else. Program forward themselves spend.\nNatural next worker population.\nExist push near. College join staff close air tend ground.","estimatedTime":"10 weeks"}'

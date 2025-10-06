@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTA2VDExOjM0OjE0LjUwMDI2OSIsInVzZXJfaWQiOiIxYmU3YmVlZC03ODNiLTQ2OGQtYmJkMC1mNGRkNzZmYmZhNDMifQ.kZCEQ1zucPzNMZtJoEGuyp7i5O5hpJ6HWqitzxAf6Qg' \
+  -H 'content-length: 404' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Voice eye take wonder risk.","maxScore":56,"minScore":16,"description":"Bring life describe month. We him their season. Traditional want rock.\nResource cut whole management. Push fish yourself service this somebody. Already see kid read must idea crime.","estimatedTime":"3 weeks","previewFileId":"806c0e82-be02-4ecb-be34-ed4730dcb490","createdByUserId":"1be7beed-783b-468d-bbd0-f4dd76fbfa43"}'

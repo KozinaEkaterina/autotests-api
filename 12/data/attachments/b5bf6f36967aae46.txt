@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTA2VDExOjM0OjE0LjIyNjk0NCIsInVzZXJfaWQiOiI3MTRlODM5NC03OTQ3LTQ2YWItODAzMi04Y2Y0NGIyNDNkMDAifQ.Tbi2NaXuF8gwXXCC4scYheJ6veNMkeoX0hC2RI-h3-o' \
+  -H 'content-length: 410' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Why success last difference hair mention ahead.","maxScore":55,"minScore":23,"description":"Security catch better side born. Human break way computer particularly law.\nBar these expect he black help high little. Concern ball have news. Here think seat price.","estimatedTime":"10 weeks","previewFileId":"7823e72b-a50e-4579-a374-7ad448ea1295","createdByUserId":"714e8394-7947-46ab-8032-8cf44b243d00"}'

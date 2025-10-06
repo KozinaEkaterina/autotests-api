@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTA2VDExOjM0OjE1LjQyMzYxNiIsInVzZXJfaWQiOiI4Y2ExMjc4OS1hNjk0LTQwMDgtOWVjMy00M2NjNTA4Mjc2YzAifQ.xInZ7IN2i_bj29kfpLDja2hdPM7YXjdIV8kBW_T4liQ' \
+  -H 'content-length: 381' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Draw themselves it condition near development.","maxScore":100,"minScore":15,"description":"Know others fight pass culture management range. Most particularly process drug treat sit.\nVote when rich situation. Under impact quality.","estimatedTime":"6 weeks","previewFileId":"6c9a3323-39ae-4e82-add6-64101a0062d9","createdByUserId":"8ca12789-a694-4008-9ec3-43cc508276c0"}'

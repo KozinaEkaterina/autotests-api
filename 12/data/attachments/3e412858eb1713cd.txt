@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTA2VDExOjM0OjE2LjYzMjM1NiIsInVzZXJfaWQiOiJjNzY4M2Y0YS00ZGQwLTQ1ZjQtODkzNS02ZjEzMGVjYTcxZWMifQ.6kisYSoEVrNVmKMgzuUonfSo_WRqj4vr4uibZJPLIBI' \
+  -H 'content-length: 358' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Hold group decade tell score.","maxScore":89,"minScore":7,"description":"Pull buy than. Different do us rather draw.\nLet make news thing officer rate choice. Hotel bad reality off. Hear trial Democrat staff.","estimatedTime":"4 weeks","previewFileId":"97d69fcb-563c-463d-8507-13bac07d7193","createdByUserId":"c7683f4a-4dd0-45f4-8935-6f130eca71ec"}'

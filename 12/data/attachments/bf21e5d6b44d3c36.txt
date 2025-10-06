@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTA2VDExOjM0OjE3Ljg3MDEwMSIsInVzZXJfaWQiOiIxOWFiODQ4My02MzU3LTQ3YmMtYmUyZS0wZTY0YzUxNGRmYWUifQ.N0Ww2HYa7rKv7NiEYytPxs95MV6-ge9Lpg5Icaz9g40' \
+  -H 'content-length: 400' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Charge magazine industry try then.","maxScore":92,"minScore":22,"description":"South stock this professor. Young treatment pressure serious everybody.\nMarriage father American attention her. Value buy college conference thing expect article economy.","estimatedTime":"7 weeks","previewFileId":"678d0bfd-5ced-45e8-a1c7-b4473b1a8fcc","createdByUserId":"19ab8483-6357-47bc-be2e-0e64c514dfae"}'

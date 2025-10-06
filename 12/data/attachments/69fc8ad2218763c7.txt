@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTA2VDExOjM0OjEzLjA4Mjg3MyIsInVzZXJfaWQiOiI1ZjU1NzMxYS02ZDkzLTQzZTYtODk5Mi1lZDExZjhmNGQwOGUifQ.poAsrM8a07AnAdaT_2Z1ockNUz5yUTi9cr-jH2NCC8A' \
+  -H 'content-length: 383' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Improve suggest keep southern sense article.","maxScore":52,"minScore":6,"description":"Pay notice necessary consider. Parent but someone sense part. Into account usually blue.\nBy store you cause. Laugh project bar third force girl.","estimatedTime":"2 weeks","previewFileId":"956a0b7a-0ed1-423a-9512-bf66b2519a70","createdByUserId":"5f55731a-6d93-43e6-8992-ed11f8f4d08e"}'

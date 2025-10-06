@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTA2VDExOjM0OjE2LjkwNTI4NyIsInVzZXJfaWQiOiI3YTNhYmViMy05Y2VhLTQyMmMtYjFhMi1lMjNiOWY5M2RiN2EifQ.4wzMJjoH6cyURRmeh1YcxgEMNNntNbhaKLvncAQ0E5w' \
+  -H 'content-length: 361' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Beat support try smile turn truth improve can.","maxScore":71,"minScore":30,"description":"Red avoid president remain.\nReal popular left second well throw market else. Move same explain song agency heart there.","estimatedTime":"6 weeks","previewFileId":"5922e576-4459-4f29-8e1c-bc09e343a8d7","createdByUserId":"7a3abeb3-9cea-422c-b1a2-e23b9f93db7a"}'
