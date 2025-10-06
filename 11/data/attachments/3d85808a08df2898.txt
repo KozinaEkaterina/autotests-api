@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTA2VDExOjMyOjMxLjA0Mjc3MSIsInVzZXJfaWQiOiJiZDMxMTcwZS0wOGE3LTRmYTUtYTRmYS05NjVkZjE5OTYyZmIifQ.H4tXh99Dl0627nfe7-C9tpE5CJYfWL1-ZFgxcG7ET7k' \
+  -H 'content-length: 379' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Above concern sell education law.","maxScore":57,"minScore":1,"description":"Report a color behavior. Join realize staff deep western indeed expect.\nOfficial consider seek various. Film explain population buy responsibility bed.","estimatedTime":"4 weeks","previewFileId":"a8a588ca-1538-440b-9a35-37ac07b8bb55","createdByUserId":"bd31170e-08a7-4fa5-a4fa-965df19962fb"}'

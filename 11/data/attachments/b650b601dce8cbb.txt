@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTA2VDExOjMyOjMxLjA0Mjc3MSIsInVzZXJfaWQiOiJiZDMxMTcwZS0wOGE3LTRmYTUtYTRmYS05NjVkZjE5OTYyZmIifQ.H4tXh99Dl0627nfe7-C9tpE5CJYfWL1-ZFgxcG7ET7k' \
+  -H 'content-length: 324' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Year organization first expect but whatever.","courseId":"8e60a9fd-b520-4dbf-be26-33b3ce376e14","maxScore":85,"minScore":24,"orderIndex":11,"description":"Door from trial necessary development beyond follow. Arm significant teacher outside whatever box stuff. Job little understand nor.","estimatedTime":"8 weeks"}'

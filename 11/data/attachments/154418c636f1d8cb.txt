@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTA2VDExOjMyOjI5LjgxODYzMiIsInVzZXJfaWQiOiI0OTg4ODg3OS04NDMxLTRlNTMtYmI1NC04ZGE1MGMyZWM0ZTAifQ.GfMB3V_iCc5Mq1-ILuC8ld2tlWaJJ5ax966BlzHADro' \
+  -H 'content-length: 410' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Success star at great citizen message my.","maxScore":93,"minScore":22,"description":"Recently argue statement choose military dog. Knowledge accept official television story daughter. Lot own west force.\nSomething kid father. Change language arrive tax dark.","estimatedTime":"1 weeks","previewFileId":"09db6b8b-1284-4ade-8179-eb620d541223","createdByUserId":"49888879-8431-4e53-bb54-8da50c2ec4e0"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTA2VDExOjMyOjI5LjU0Mzg1MSIsInVzZXJfaWQiOiI0ZTg5NDFjOS0zN2IxLTQwMTgtYTZkYy0wNDY4ZDVmYTM3ZWUifQ.mlWm9h7w6Uby6_HF0g6YTP0fM2b_UsUiOEEq3IYfRwo' \
+  -H 'content-length: 339' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Maintain student seek gas.","courseId":"19dade85-9fb4-4f94-869d-5451f193edb6","maxScore":54,"minScore":9,"orderIndex":99,"description":"Spend employee audience already military positive fund.\nAgree customer general college. Rule head character however ready brother. Another mother easy social occur.","estimatedTime":"3 weeks"}'

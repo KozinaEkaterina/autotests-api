@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTA2VDExOjMyOjMyLjAxODA3MiIsInVzZXJfaWQiOiJiOWFhYTRjNS1mMGNhLTRhZWEtOGI1Zi1iZTg3YmUwMDI3NTIifQ.rMuujClp4aNXhW78D9JeOL37dcqWruOdVxt6dTXdfPs' \
+  -H 'content-length: 429' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Image we among late style specific television.","maxScore":69,"minScore":17,"description":"His institution particular task. Heavy parent require door measure. Education only bad federal.\nReduce red along very. Later throughout last church. News hair debate teach. Red those his.","estimatedTime":"3 weeks","previewFileId":"d4d8cd2b-f251-4297-adba-f6217858d631","createdByUserId":"b9aaa4c5-f0ca-4aea-8b5f-be87be002752"}'

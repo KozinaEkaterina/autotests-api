@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTA2VDExOjMyOjI5LjU0Mzg1MSIsInVzZXJfaWQiOiI0ZTg5NDFjOS0zN2IxLTQwMTgtYTZkYy0wNDY4ZDVmYTM3ZWUifQ.mlWm9h7w6Uby6_HF0g6YTP0fM2b_UsUiOEEq3IYfRwo' \
+  -H 'content-length: 407' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Give I success during month different begin.","maxScore":54,"minScore":16,"description":"Add firm good early eat. Rather reflect player wife itself. Sing stop again.\nTree hospital nature deep sure every season.\nMore run most. Kid two book suddenly public.","estimatedTime":"8 weeks","previewFileId":"dab0a4e4-ce21-4e8f-aa6c-e6bfc8dd75d7","createdByUserId":"4e8941c9-37b1-4018-a6dc-0468d5fa37ee"}'
