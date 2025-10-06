@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTA2VDEyOjAzOjQ2LjU2MTIzNyIsInVzZXJfaWQiOiI1N2EzYWFjZS0zZTVkLTQ4YzUtYTNkNi01YWRhZmQ0MzdmMDMifQ.jmIfoTjP-sz0ONPx38aniio9ZoteZNsJI4lLZo9pQ4c' \
+  -H 'content-length: 341' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Least cultural seem too.","maxScore":61,"minScore":12,"description":"Teacher goal guess close way reflect. Heavy office state recently director party catch. Receive yet wrong piece want life.","estimatedTime":"7 weeks","previewFileId":"ad971f9f-9760-4bd7-a844-77ad80636aec","createdByUserId":"57a3aace-3e5d-48c5-a3d6-5adafd437f03"}'

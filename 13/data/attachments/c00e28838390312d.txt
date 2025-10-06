@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTA2VDEyOjAzOjQyLjM0MDkzNSIsInVzZXJfaWQiOiI1ZGZkOThmNy0xODBmLTRjZjEtODRlYS0yZTYyMWM5ZDlkYjMifQ.PKnmAVhWKgaggrGhTE9yX_Bs48WO-mDjA7V2w7H69i4' \
+  -H 'content-length: 396' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Listen appear represent good should traditional.","maxScore":84,"minScore":6,"description":"Program know study front friend magazine wear. None difficult hand wrong.\nHope light ask. Really capital never finish environmental. Sort personal site.","estimatedTime":"10 weeks","previewFileId":"e8ca3338-789a-4714-9c53-14bed732cdd2","createdByUserId":"5dfd98f7-180f-4cf1-84ea-2e621c9d9db3"}'

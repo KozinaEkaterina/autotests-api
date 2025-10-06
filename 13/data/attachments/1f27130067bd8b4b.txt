@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTA2VDEyOjAzOjQ2LjU2MTIzNyIsInVzZXJfaWQiOiI1N2EzYWFjZS0zZTVkLTQ4YzUtYTNkNi01YWRhZmQ0MzdmMDMifQ.jmIfoTjP-sz0ONPx38aniio9ZoteZNsJI4lLZo9pQ4c' \
+  -H 'content-length: 345' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Hand care every back audience seek speech.","courseId":"dc860182-d1dc-4e6d-abc6-40c4735ce8c3","maxScore":65,"minScore":8,"orderIndex":83,"description":"Along nature total recently.\nRegion better purpose until.\nLetter figure item maintain hard budget probably. Safe amount card drop power firm money peace.","estimatedTime":"9 weeks"}'

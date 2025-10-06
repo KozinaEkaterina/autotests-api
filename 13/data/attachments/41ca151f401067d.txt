@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTA2VDEyOjAzOjQzLjUyNTUwNSIsInVzZXJfaWQiOiIxYzJhNzg4My1jYzRkLTRmYzMtYmI3OC02ZDZiNmFkMjVjOGUifQ.QjQzvs8cdlgl8kES6f2apelF3iv0tYpdWKFWPrZQW9U' \
+  -H 'content-length: 313' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Author program Republican house individual.","maxScore":90,"minScore":13,"description":"Serious stage idea policy phone. Concern want success perhaps station plan.","estimatedTime":"9 weeks","previewFileId":"a0b811b8-7f73-4cae-89b8-cba9c1104212","createdByUserId":"1c2a7883-cc4d-4fc3-bb78-6d6b6ad25c8e"}'

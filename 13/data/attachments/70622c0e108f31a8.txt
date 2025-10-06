@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTA2VDEyOjAzOjQ0LjcxMzg0NCIsInVzZXJfaWQiOiJiNWVlMmJiNi0zMGFhLTRiMmQtYjcyOS05NTg3NWRlY2VlODgifQ.9ODftkVpNMd9NzGjRo_N4y4B8q3xS36Lk_Jp8wLcHyo' \
+  -H 'content-length: 353' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Box save language necessary skin spring career market.","maxScore":68,"minScore":4,"description":"Really too film audience responsibility. Alone try game nearly produce. Later instead try then three try.","estimatedTime":"2 weeks","previewFileId":"9882d4d3-ad83-4b08-b7c5-62a49c97723e","createdByUserId":"b5ee2bb6-30aa-4b2d-b729-95875decee88"}'

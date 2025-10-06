@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTA2VDEyOjAzOjQ1LjI5NTE0NiIsInVzZXJfaWQiOiIxZTAxMTRkYi1iMTliLTQ1NTQtOGQ0Ny1jZjNmOWU0NzgxMzAifQ.2EaXYFfILTbTzxQtY9GByl9P4VtbyBmfo9hbuPR7FyI' \
+  -H 'content-length: 376' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Economic song than ok.","maxScore":54,"minScore":8,"description":"Surface and study role fear sort situation law.\nTown down hold visit.\nEnvironment indeed imagine defense certain parent. Order about quality firm strong fill.","estimatedTime":"2 weeks","previewFileId":"13c572d7-709c-4943-bce5-4e6a57f5514d","createdByUserId":"1e0114db-b19b-4554-8d47-cf3f9e478130"}'

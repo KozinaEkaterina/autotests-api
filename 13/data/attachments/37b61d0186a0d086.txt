@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/2563788e-ba09-47a3-83c8-02d1a748a332' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTA2VDEyOjAzOjQzLjUyNTUwNSIsInVzZXJfaWQiOiIxYzJhNzg4My1jYzRkLTRmYzMtYmI3OC02ZDZiNmFkMjVjOGUifQ.QjQzvs8cdlgl8kES6f2apelF3iv0tYpdWKFWPrZQW9U' \
+  -H 'content-length: 314' \
+  -H 'content-type: application/json' \
+  -d '{"title":"He industry build song low arrive.","maxScore":83,"minScore":8,"description":"Way want director performance age chair yeah. Decision anything authority issue guy.\nPainting everybody church little audience service politics. Piece husband show pay standard four military join.","estimatedTime":"10 weeks"}'
