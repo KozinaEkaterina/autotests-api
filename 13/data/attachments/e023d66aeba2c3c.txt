@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTA2VDExOjQ3OjMyLjAwMTk5MiIsInVzZXJfaWQiOiI2NjU2YjBkYS05MWZlLTQzZTEtODExMy1iZjBhZGI2MGIyMDMifQ.48-vLHvrz6LTfmBEVpnXT0iYTXuVKjlU5eviB60eUHE' \
+  -H 'content-length: 401' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Trade factor fire how owner.","maxScore":70,"minScore":1,"description":"Look increase not way claim same for product. Draw project if concern.\nListen whose source good impact. Image expert cell body want receive food.\nMy worry old money wall about.","estimatedTime":"10 weeks","previewFileId":"9315d083-f05a-4bde-a69b-fcacf067d568","createdByUserId":"6656b0da-91fe-43e1-8113-bf0adb60b203"}'

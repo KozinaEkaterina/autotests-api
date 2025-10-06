@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTA2VDExOjQ3OjMzLjUxMDQ4NSIsInVzZXJfaWQiOiIzOGU3NWFlZC0xMjkyLTRkNDgtODBjZS1hMWFmM2M2YWM3Y2QifQ.SLbWiJqc80Rn15IHAGvYoKtqX1Lvaqeat29rf7yZXQY' \
+  -H 'content-length: 354' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Concern thought so carry ok he particularly.","maxScore":73,"minScore":17,"description":"Them senior wait place attack. Case size cup significant movie bank thought candidate. Wide everything hear method.","estimatedTime":"2 weeks","previewFileId":"af900804-349d-439e-9adc-7eda08c2348d","createdByUserId":"38e75aed-1292-4d48-80ce-a1af3c6ac7cd"}'

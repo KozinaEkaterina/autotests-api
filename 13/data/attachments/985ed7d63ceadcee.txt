@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTA2VDExOjQ3OjMwLjc5NjU0NiIsInVzZXJfaWQiOiJmZDg0YjdiMS0wNDA0LTQ3OTMtYjljYy1hZWJiMjRjMmI2YWEifQ.zWmGy2deZ1ZAMcqci_7j3SdqXiM27tfr2aC7SAaJGbI' \
+  -H 'content-length: 320' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Result sit stay include director interest through.","maxScore":61,"minScore":10,"description":"Build by decision future address. Surface general best court audience main.","estimatedTime":"6 weeks","previewFileId":"aec59ac9-29fe-4317-bbec-94f858cf6f54","createdByUserId":"fd84b7b1-0404-4793-b9cc-aebb24c2b6aa"}'

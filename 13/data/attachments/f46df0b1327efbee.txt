@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/fc2b179d-c24b-4ef3-abc1-4949eae32aad' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTA2VDExOjQ3OjMwLjc5NjU0NiIsInVzZXJfaWQiOiJmZDg0YjdiMS0wNDA0LTQ3OTMtYjljYy1hZWJiMjRjMmI2YWEifQ.zWmGy2deZ1ZAMcqci_7j3SdqXiM27tfr2aC7SAaJGbI' \
+  -H 'content-length: 314' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Discover write read film present.","maxScore":75,"minScore":20,"description":"Explain western father. Can hospital process sea. Decade field turn deal.\nEverything organization environmental card. Author beautiful data else pick. Protect performance real fight child PM easy.","estimatedTime":"10 weeks"}'

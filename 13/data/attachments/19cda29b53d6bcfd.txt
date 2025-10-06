@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTA2VDExOjQ3OjMzLjIzNjk2NCIsInVzZXJfaWQiOiJlNTgyYTdjZi1lZTQ1LTQwZDMtODBiMy1lZDZjOTgyMTIyNDAifQ.MRcFGJ7oaM4JNhBfFuV1o7qxDRzeilFYStA1QspaLO4' \
+  -H 'content-length: 356' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Product open suggest woman.","maxScore":78,"minScore":26,"description":"Forget suffer foot newspaper right. Probably last remain.\nSame less side down. Million country best we since. Speak still agreement.","estimatedTime":"10 weeks","previewFileId":"36c88004-f4b1-432b-ab38-624fe9f00db9","createdByUserId":"e582a7cf-ee45-40d3-80b3-ed6c98212240"}'

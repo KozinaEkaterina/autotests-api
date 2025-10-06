@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTA2VDExOjQ3OjMyLjI3NDM3MyIsInVzZXJfaWQiOiJhZDcxMWQ5Ni04MTc2LTQxMzEtOWIzMS0zOWM3MmVmMWQzMWIifQ.Pz3ujcM0vjz-XEEOkli4_OtHu_APDLTQ4qZfXG2NwGg' \
+  -H 'content-length: 346' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Attack worry such the crime.","maxScore":95,"minScore":20,"description":"Scientist front green single company. Wall truth charge society what my never authority. Someone mention send vote finish.","estimatedTime":"10 weeks","previewFileId":"6933f5c4-ea22-4ac5-a966-c385d41318ba","createdByUserId":"ad711d96-8176-4131-9b31-39c72ef1d31b"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTA2VDExOjQ3OjMxLjA2OTA5NSIsInVzZXJfaWQiOiJjOWU3Y2JlMi1mYTU0LTQ4MGQtYmZkZS00ZjgyNGVhZDFlZjUifQ.qIqB7ulUag4vn29EuFf64T0TiEYxm0xecZo6qRUCBhM' \
+  -H 'content-length: 336' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Candidate everybody own over view whom thought.","courseId":"ad3a9e12-82ce-4421-a02c-2e75b9bb953b","maxScore":98,"minScore":22,"orderIndex":20,"description":"Charge seek whom operation process person. Social report past already avoid rise. Quite now fight wish. Look include prove development hope.","estimatedTime":"1 weeks"}'
