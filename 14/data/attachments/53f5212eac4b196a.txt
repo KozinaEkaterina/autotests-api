@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/a9f8282b-7325-4e64-a399-6a8eb8474fa9' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTA2VDEyOjA3OjUzLjY5NDY2MyIsInVzZXJfaWQiOiI1NmIwYWJjYS04MmVlLTQxZDMtOTgxOS02YzNmMjVhYjJmNzcifQ.-J_hOfG0LCv4oO3yy_InIwOeqtKVEsGL9pD8g4C2QZI' \
+  -H 'content-length: 303' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Likely standard play nation stuff bit simply image.","maxScore":90,"minScore":14,"description":"However drive team ago bed soon.\nBy thousand company eye dream take. For especially degree key never political anyone. Traditional food no run.\nNow kitchen peace left.","estimatedTime":"9 weeks"}'

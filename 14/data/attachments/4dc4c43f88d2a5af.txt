@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTA2VDEyOjA3OjU0LjkxMjgwMSIsInVzZXJfaWQiOiIyY2QyOGY1MC02NDBjLTQ3NDQtYWU0YS05YWIwMGIzNjJhNTUifQ.soEhHuphyQ7R1H8jtg4u7QysBk-h5cgxm6ey37d4Yjw' \
+  -H 'content-length: 379' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Establish can picture poor space small.","courseId":"aa40d5f9-5a9e-41f7-b241-3a2fc3fc3f90","maxScore":74,"minScore":27,"orderIndex":83,"description":"Take without main fear. Million amount too stand foreign statement cause dream.\nAbility necessary onto relationship. Probably write fill now PM. Office sport story single spend relationship.","estimatedTime":"1 weeks"}'

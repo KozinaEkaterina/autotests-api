@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTA2VDEyOjA3OjU2LjQ1MDMyMiIsInVzZXJfaWQiOiIyZWM4NzEwNy0yY2YzLTQ0MWUtYjIwNi00M2Y3MzE0OGYyYjQifQ.wwjTzxbfOVU0CS9jPSKYmhoLkM9YAX30FjypAZZJpwc' \
+  -H 'content-length: 326' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Hope raise first ok single everyone station.","maxScore":85,"minScore":13,"description":"First citizen consider federal read wrong. Traditional discuss pay send local leg why.","estimatedTime":"10 weeks","previewFileId":"ac0d9ba3-4fd3-48e5-9c2b-42a711a9d1f2","createdByUserId":"2ec87107-2cf3-441e-b206-43f73148f2b4"}'

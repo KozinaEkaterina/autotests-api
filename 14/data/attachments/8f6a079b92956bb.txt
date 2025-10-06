@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTA2VDEyOjA3OjUzLjk2NzY0NCIsInVzZXJfaWQiOiJjZmYwNGIyMS1iZDY4LTRkZjAtOGE4NS02YTU2YzA3NDhhOGEifQ.QuFqjrsguajggxkMZjCEoEGfDjbMR9I-UGgpDO8ME1Y' \
+  -H 'content-length: 357' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Condition amount manage appear reality.","maxScore":64,"minScore":19,"description":"Get art a could. Out reflect young make range sort rest. This this door play study throughout. Fact number everybody worry.","estimatedTime":"6 weeks","previewFileId":"1ebaa556-928e-43df-b811-08f97942ccf6","createdByUserId":"cff04b21-bd68-4df0-8a85-6a56c0748a8a"}'

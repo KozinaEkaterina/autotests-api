@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/13568446-0e13-4340-aedf-011a96c60ea9' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTA2VDEyOjA3OjU0LjkxMjgwMSIsInVzZXJfaWQiOiIyY2QyOGY1MC02NDBjLTQ3NDQtYWU0YS05YWIwMGIzNjJhNTUifQ.soEhHuphyQ7R1H8jtg4u7QysBk-h5cgxm6ey37d4Yjw' \
+  -H 'content-length: 268' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Such treat same take include continue.","maxScore":56,"minScore":24,"orderIndex":92,"description":"Respond single send can once network. After other student hear picture treat group Congress. Be shoulder firm authority upon phone.","estimatedTime":"8 weeks"}'

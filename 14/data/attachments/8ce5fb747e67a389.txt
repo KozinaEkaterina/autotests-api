@@ -1,0 +1,25 @@
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:26 Make GET request to http://localhost:8000/api/v1/exercises?courseId=717e605e-8cfe-4aea-a10c-67ce4c35ea68
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/exercises?courseId=717e605e-8cfe-4aea-a10c-67ce4c35ea68
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:117 Check get exercises response
+INFO     BASE_ASSERTIONS:base.py:74 Check that length of "exercises" equals to 1
+INFO     EXERCISES_ASSERTIONS:exercises.py:47 Check exercise
+INFO     BASE_ASSERTIONS:base.py:38 Check that "id" equals to eb2eda74-450a-436e-b4ad-414c008d9844
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals to Trip know happen grow free situation attorney.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "course_id" equals to 717e605e-8cfe-4aea-a10c-67ce4c35ea68
+INFO     BASE_ASSERTIONS:base.py:38 Check that "max_score" equals to 57
+INFO     BASE_ASSERTIONS:base.py:38 Check that "min_score" equals to 14
+INFO     BASE_ASSERTIONS:base.py:38 Check that "order_index" equals to 1
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals to Security respond natural process trial lead within. Tv trial front parent. Option piece yard prevent production work. Tell within machine relationship.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals to 7 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validating JSON schema

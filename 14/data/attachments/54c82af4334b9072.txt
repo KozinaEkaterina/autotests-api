@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTA2VDEyOjA3OjU0LjkxMjgwMSIsInVzZXJfaWQiOiIyY2QyOGY1MC02NDBjLTQ3NDQtYWU0YS05YWIwMGIzNjJhNTUifQ.soEhHuphyQ7R1H8jtg4u7QysBk-h5cgxm6ey37d4Yjw' \
+  -H 'content-length: 384' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Us set individual less.","maxScore":98,"minScore":25,"description":"Anyone civil when key contain. Alone too evening never very east establish.\nTable crime season large. During mother check relationship. Last evening offer treat how.","estimatedTime":"6 weeks","previewFileId":"ab18be35-75d0-4b88-af48-76642c147940","createdByUserId":"2cd28f50-640c-4744-ae4a-9ab00b362a55"}'

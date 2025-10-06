@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTA2VDEyOjA3OjU1LjE4NzMxOCIsInVzZXJfaWQiOiI5MmUwODNmZi1jNmNkLTRmZTQtYTVjOC1jMzQxMTM5N2I0MjMifQ.d3gaPSGzZzq5dIUGm0XPdfgUKvMx-rhkqYZxKxlTYaU' \
+  -H 'content-length: 416' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Watch attorney theory group.","maxScore":58,"minScore":22,"description":"Foreign guess certainly ago. Surface push act their economy information. Then while again kid relate mother former.\nOff cultural office step try end thank. Offer option actually marriage main.","estimatedTime":"3 weeks","previewFileId":"7d6ee6ed-fec8-4bb1-8cb6-54d64ba31b9a","createdByUserId":"92e083ff-c6cd-4fe4-a5c8-c3411397b423"}'

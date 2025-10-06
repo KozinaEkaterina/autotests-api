@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTA2VDEyOjA3OjUyLjc4NDA1NSIsInVzZXJfaWQiOiJkMzY4ZWExYy1jZTY2LTQwZDEtOTJlNS1lYTNlYjc4ODcyOWUifQ.jp9GOz_9LM8sM40oXF90FDeBxTjdXhSiHYYbYbMm2os' \
+  -H 'content-length: 415' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Get begin site education talk tough.","maxScore":69,"minScore":29,"description":"Understand management account can unit well. Like nation thing class.\nInformation will owner simple how such animal. Major site play key since discuss. West serve range yes research.","estimatedTime":"10 weeks","previewFileId":"f4238365-d0c9-45d7-aa55-22ce91c485d5","createdByUserId":"d368ea1c-ce66-40d1-92e5-ea3eb788729e"}'

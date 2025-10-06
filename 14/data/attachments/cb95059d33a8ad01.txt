@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTA2VDEyOjA3OjUzLjY5NDY2MyIsInVzZXJfaWQiOiI1NmIwYWJjYS04MmVlLTQxZDMtOTgxOS02YzNmMjVhYjJmNzcifQ.-J_hOfG0LCv4oO3yy_InIwOeqtKVEsGL9pD8g4C2QZI' \
+  -H 'content-length: 409' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Call amount throughout change attack.","maxScore":61,"minScore":13,"description":"Offer heavy reveal sport leave similar like. Idea crime environmental society just second technology. Look half too grow range ago close. Our score yard benefit magazine myself.","estimatedTime":"5 weeks","previewFileId":"f65815a5-5165-4dad-9d56-8ac835d88d58","createdByUserId":"56b0abca-82ee-41d3-9819-6c3f25ab2f77"}'

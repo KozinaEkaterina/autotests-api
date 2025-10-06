@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTA2VDEyOjA3OjUyLjE5NTc5MiIsInVzZXJfaWQiOiJhNTYyYWYwZC03NjFlLTQzM2UtOTAyOC1mNjQyNzA1YzczYjcifQ.SZNM70D0F21l4WRkx9PxQGEc1yDOdtw7OZA3R3w68yQ' \
+  -H 'content-length: 428' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Deep respond look population significant center protect.","maxScore":87,"minScore":10,"description":"Sister several population. Cup plant significant bill recent rock politics.\nWind six provide around. School give check language improve time. Ability at report up someone each.","estimatedTime":"6 weeks","previewFileId":"4ecc4930-dfe1-42ee-997b-a349ce9c844b","createdByUserId":"a562af0d-761e-433e-9028-f642705c73b7"}'
