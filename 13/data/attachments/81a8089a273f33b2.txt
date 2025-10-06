@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTA2VDExOjQzOjU4LjE3NzA2NSIsInVzZXJfaWQiOiI5YzQ3NjRhYy01OGY2LTQ3NDItOTkzZi1mMzY5ZWJkZGI1NzYifQ.03F8uMoW7kMvnqW2Wtj-Kf2HaErBcmE41XfHBkX1Rbo' \
+  -H 'content-length: 395' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Maybe we challenge writer senior.","maxScore":59,"minScore":12,"description":"Recent financial book tree cup develop brother. Life data crime discuss individual American attack.\nEat measure fact leader forward occur. Your power reflect go rest.","estimatedTime":"3 weeks","previewFileId":"0211ea72-8282-4637-8c4c-8c97390b077c","createdByUserId":"9c4764ac-58f6-4742-993f-f369ebddb576"}'

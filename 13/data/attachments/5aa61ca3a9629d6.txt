@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTA2VDExOjQzOjU5LjM1MjYzOSIsInVzZXJfaWQiOiJhNzFlZTllOC1jOTFkLTQxZTAtOTVkYS00ODkzODE1Y2UxYzgifQ.QRSAvk4WQ_vOHp5RinXKNAUCjTDI7RQiRpAiqzi1FqY' \
+  -H 'content-length: 332' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Item garden now able show end month fear.","maxScore":65,"minScore":1,"description":"Pass also white up pattern.\nKind ten hope. Worry set use another actually TV participant entire.","estimatedTime":"5 weeks","previewFileId":"ac93b3cb-1cc8-409e-a288-c11ee31c06fb","createdByUserId":"a71ee9e8-c91d-41e0-95da-4893815ce1c8"}'

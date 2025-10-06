@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTA2VDExOjQ0OjAyLjQyODYxNCIsInVzZXJfaWQiOiI2OWMxYTRiNS0yZmJkLTQwMDYtYTVjZS0xMWEwZDE4MjViODgifQ.h9Y1wUujPyKeYkMmUPdmg4pt0DzNILWH5jrZWiKDJoY' \
+  -H 'content-length: 435' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Home maybe nice difficult crime cell hotel may.","maxScore":71,"minScore":16,"description":"His pretty different wind get southern. Alone least ten notice. Trip third economic.\nMust believe green rather. Their future life home. Herself discuss school mouth. Recognize season hospital.","estimatedTime":"8 weeks","previewFileId":"a49ba063-7c33-4c44-bad2-6ddc9c0bac8d","createdByUserId":"69c1a4b5-2fbd-4006-a5ce-11a0d1825b88"}'

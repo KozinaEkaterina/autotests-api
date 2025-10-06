@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTA2VDExOjQ0OjAxLjgyNTA2MyIsInVzZXJfaWQiOiJiZWI1Mjk4MC1lYmIyLTQyYTctYmY3NS1iM2NmNDkxYjdkOTAifQ.dSNUrUpFSc2T_G1xAFI8Z0nEJlbyPTgb-PeKTVYyFco' \
+  -H 'content-length: 334' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Consider old protect difference.","maxScore":86,"minScore":18,"description":"Word forward school daughter long factor traditional. Stage process change development great civil perhaps.","estimatedTime":"9 weeks","previewFileId":"1ae4a4d2-1bdd-410a-b799-f5dad6816116","createdByUserId":"beb52980-ebb2-42a7-bf75-b3cf491b7d90"}'

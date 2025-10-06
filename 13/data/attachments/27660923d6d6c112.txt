@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTA2VDExOjQzOjU5LjkzNTk1MCIsInVzZXJfaWQiOiIyZWUzMjAzNi1mYzk1LTRhNTMtOWNhZS0xM2FmM2FiOTYwZGYifQ.20Xa8AWoqD-EG7hZR_O80mPpJ5fd62v_WDhUjfbxa0k' \
+  -H 'content-length: 321' \
+  -H 'content-type: application/json' \
+  -d '{"title":"However wide possible evidence over effect.","maxScore":91,"minScore":23,"description":"Specific game bag subject front can. Community check very lawyer office stop think.","estimatedTime":"8 weeks","previewFileId":"c2738958-6e48-4622-937a-b35702a9952c","createdByUserId":"2ee32036-fc95-4a53-9cae-13af3ab960df"}'
