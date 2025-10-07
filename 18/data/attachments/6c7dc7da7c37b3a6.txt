@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTA3VDEwOjA3OjE1LjY5NDcxMSIsInVzZXJfaWQiOiI5OTBiNzAwNy02NjI4LTQ5MDEtOTM1ZC03MjFlNmU1OGFhNWYifQ.FUDg5jSnFBNvip7tdrKZNmouZBMUcJqAFobuTFn2Tvg' \
+  -H 'content-length: 422' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Only east myself protect summer important art.","maxScore":65,"minScore":12,"description":"Nature factor create list world. Poor against increase doctor sit. At whose couple choose.\nRelationship society fight pick meet or cut. Visit analysis pull future response prepare.","estimatedTime":"7 weeks","previewFileId":"eb6f1973-f10d-41d2-8b9e-453ccc7815ab","createdByUserId":"990b7007-6628-4901-935d-721e6e58aa5f"}'

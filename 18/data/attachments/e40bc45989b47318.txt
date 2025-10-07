@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTA3VDEwOjA3OjE0Ljc3MzAzMyIsInVzZXJfaWQiOiI5MjczMzYyYy03YmRlLTQxYzAtOThhYy1lOTlkMzg1MmZmODEifQ.w753UnVYKHvjo1RsITy1H8Ec370BWHCKu_BPvEeE9B8' \
+  -H 'content-length: 418' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Like understand billion early against ever.","maxScore":77,"minScore":9,"description":"School although executive read into think. Wall there middle single artist. Air buy recognize war.\nRaise newspaper possible action brother baby. That sell arm act new party moment.","estimatedTime":"7 weeks","previewFileId":"7376e749-672b-474c-a499-f30b2c4ca2fd","createdByUserId":"9273362c-7bde-41c0-98ac-e99d3852ff81"}'

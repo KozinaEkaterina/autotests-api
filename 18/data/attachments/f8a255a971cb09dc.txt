@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTA3VDEwOjA3OjE1Ljk2ODk3MSIsInVzZXJfaWQiOiJkNzczNDU3Ny03Nzc0LTQ4ZmQtYTQ0Ny0xZTE5Y2IyNzAxNmYifQ.MOMjQIVSArXjcdaZVIRWidpxpTBOGOfbIIKdsV7LLM4' \
+  -H 'content-length: 366' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Site feel clearly full.","maxScore":64,"minScore":8,"description":"Dream end amount coach. Address go need.\nProvide current Congress ability. Within around develop note type may agency. Body unit rest build I music.","estimatedTime":"7 weeks","previewFileId":"3a07d787-cc61-43b1-82c6-9f91d075a516","createdByUserId":"d7734577-7774-48fd-a447-1e19cb27016f"}'

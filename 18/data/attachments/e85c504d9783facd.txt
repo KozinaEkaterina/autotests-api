@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTA3VDEwOjA3OjE0LjQ5OTI1MCIsInVzZXJfaWQiOiI5Njk5MGIxOC00NjAwLTRmZjgtYWNlMC0xNjRkN2RhZDZkODIifQ.az-FygvDZCgbPAo7dUeO4szNnkwpuAMrmpxDBwRDFks' \
+  -H 'content-length: 400' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Station democratic hit assume baby between.","maxScore":94,"minScore":20,"description":"Forward difficult accept agree safe write list. Dream training say billion second. Hotel relationship as picture.\nWhat on hand movement real. Reduce any already.","estimatedTime":"7 weeks","previewFileId":"872e2bda-59f6-4726-9da3-7d4eb3b896ba","createdByUserId":"96990b18-4600-4ff8-ace0-164d7dad6d82"}'

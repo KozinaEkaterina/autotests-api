@@ -1,0 +1,19 @@
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:26 Make PATCH request to http://localhost:8000/api/v1/courses/a739ca42-7d33-4823-88da-6a2fd7f5c651
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/courses/a739ca42-7d33-4823-88da-6a2fd7f5c651
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:30 Check update course response
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals to Remain actually doctor build energy and.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "max_score" equals to 91
+INFO     BASE_ASSERTIONS:base.py:38 Check that "min_score" equals to 27
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals to Tonight avoid poor why kind. Read standard whom wonder simple.
+Box figure husband blood few recent. Most manage movie father nothing up east.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals to 6 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validating JSON schema

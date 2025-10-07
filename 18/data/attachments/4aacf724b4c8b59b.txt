@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTA3VDEwOjA3OjE3LjE4NTA1NiIsInVzZXJfaWQiOiIxYjE2ZDJlOC03YjUxLTRkZDQtOTkyOS00NTlhNTlhYjEzMGMifQ.zvRopD6HROKCSeXDDfgALLxao0izjKEiVNwdCiAMH3w' \
+  -H 'content-length: 336' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Fine usually number claim check.","maxScore":59,"minScore":14,"description":"Use social lot who cup. Travel teacher challenge treat pressure. Environmental series arm offer sign however.","estimatedTime":"1 weeks","previewFileId":"c707fddb-4e5b-40a2-95e3-0cc3f0917cb0","createdByUserId":"1b16d2e8-7b51-4dd4-9929-459a59ab130c"}'

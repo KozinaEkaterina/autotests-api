@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTA3VDEwOjA3OjEzLjM0OTU0OCIsInVzZXJfaWQiOiIwMDk1YjhjMy1iYzcyLTRkYzItYTcyYy1hMzc3Zjk5ZWY4MmIifQ.MrfzufxObBnF9VXk5PuEbZRw2Yycc9l08OOK95caXfA' \
+  -H 'content-length: 396' \
+  -H 'content-type: application/json' \
+  -d '{"title":"How brother manager field form.","maxScore":55,"minScore":18,"description":"Citizen sense technology collection. Size kid wear.\nTend air gun green western center information. Near what join everyone term believe. Third quickly without yard ever.","estimatedTime":"1 weeks","previewFileId":"aa031835-8047-45d1-8ea6-272b7f64b87f","createdByUserId":"0095b8c3-bc72-4dc2-a72c-a377f99ef82b"}'

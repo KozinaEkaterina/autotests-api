@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/a739ca42-7d33-4823-88da-6a2fd7f5c651' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTA3VDEwOjA3OjE0Ljc3MzAzMyIsInVzZXJfaWQiOiI5MjczMzYyYy03YmRlLTQxYzAtOThhYy1lOTlkMzg1MmZmODEifQ.w753UnVYKHvjo1RsITy1H8Ec370BWHCKu_BPvEeE9B8' \
+  -H 'content-length: 265' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Remain actually doctor build energy and.","maxScore":91,"minScore":27,"description":"Tonight avoid poor why kind. Read standard whom wonder simple.\nBox figure husband blood few recent. Most manage movie father nothing up east.","estimatedTime":"6 weeks"}'
